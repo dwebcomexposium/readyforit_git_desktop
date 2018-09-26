@@ -1,3 +1,169 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence */
+@font-face {
+  font-family: 'Barlow';
+  src: url('fonts/barlow/Barlow-Regular.ttf');
+}
 
+/***********************************/
+/* CUSTOM */
+/***********************************/
+html,
+html * {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: 20px;
+}
+
+/* Color */
+.orange-light {
+  color: #f39005;
+}
+
+.green {
+  color: #00c485;
+}
+
+.blue {
+  color: #00e2ff;
+}
+
+/* Arrow */
+.arrow-right {
+  display: inline-block;
+  margin: 0 5px;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+  border-left: solid 7px #f39005;
+}
+
+
+/***********************************/
+/* HEADER */
+/***********************************/
+
+/* Header */
+.site-banner {
+  background: transparent;
+}
+
+.site-banner .inside {
+  max-width: 1440px;
+  padding: 0;
+}
+
+.site-banner .inside .quicklinks {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15rem;
+  background: #1e2339;
+}
+
+.site-banner .inside .quicklinks .btn-primary {
+  padding: 0.7em 2em;
+  border: 0;
+  background: #565968;
+  font-size: 1.3rem;
+}
+
+.wrapper,
+.site-wrapper {
+  max-width: 1440px;
+}
+
+.header-container {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url('img/readyforit/bg_header.jpg') no-repeat 46% 0;
+}
+
+.header-logo {
+  width: 635px;
+  height: 280px;
+  background: url('img/readyforit/logo.png') no-repeat;
+}
+
+.header-date {
+  margin-right: 10rem;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  color: #1e2339;
+  text-align: center;
+}
+
+.header-date p {
+  margin: 0;
+}
+
+/* Navigation */
+.mn-menu-line {
+  justify-content: center;
+  border: 0;
+}
+
+.mn-item-lvl-1 > .mn-link {
+  font-weight: 700;
+  text-transform: inherit;
+}
+
+.mn-link-text::before {
+  display: none;
+}
+
+/* Stiky header */
+.is-stuck.site-banner {
+  padding: 0;
+}
+
+.is-stuck.site-banner .header-container {
+  display: flex;
+  align-items: center;
+}
+
+.is-stuck.site-banner .header-content {
+  padding-left: 15rem;
+  background: transparent;
+}
+
+.is-stuck.site-banner .header-logo {
+  position: absolute;
+  top: -2.3rem;
+  left: 0;
+  width: 137px;
+  height: 170px;
+  background: url('img/readyforit/logo-stiky.png') no-repeat;
+}
+
+
+/***********************************/
+/* FOOTER */
+/***********************************/
+.site-footer {
+  background: transparent;
+}
+
+.site-footer .inside {
+  max-width: 1440px;
+  padding: 4.25em 0 0;
+  border-top: 11px solid #565968;
+  background: #1e2339;
+}
+
+.site-footer .quicklinks {
+  background: #141828;
+}
+
+
+
+/***********************************/
+/* MAIN */
+/***********************************/
