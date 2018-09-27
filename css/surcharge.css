@@ -158,6 +158,11 @@ html * {
   background: #1e2339;
 }
 
+.footer-top-container,
+.footer-bottom-container {
+  display: block;
+}
+
 .site-footer .quicklinks {
   background: #141828;
 }
