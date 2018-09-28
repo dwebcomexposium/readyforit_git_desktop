@@ -2,7 +2,10 @@
 /* CSS Document - Surcharge css Agence */
 @font-face {
   font-family: 'Barlow';
-  src: url('fonts/barlow/Barlow-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/barlow/Barlow-Regular.eot');
+  src: url('fonts/barlow/Barlow-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/barlow/Barlow-Regular.woff2') format('woff2'), url('fonts/barlow/Barlow-Regular.woff') format('woff'), url('fonts/barlow/Barlow-Regular.ttf') format('truetype'), url('fonts/barlow/Barlow-Regular.svg#Barlow') format('svg');
 }
 
 /***********************************/
@@ -119,6 +122,30 @@ html * {
   display: none;
 }
 
+.is-open .mn-link.mn-link {
+  background: transparent;
+  color: #003239;
+}
+
+.mn-link.mn-link:hover,
+.mn-link.mn-link:focus,
+.mn-link.mn-link.is-active {
+  background: transparent;
+  color: #ff3100;
+}
+
+.mn-menu-submenu {
+  background: #ffffff;
+  color: #003239;
+}
+
+.mn-menu-submenu .mn-link:hover,
+.mn-menu-submenu .mn-link:focus,
+.mn-menu-submenu .mn-link.is-active {
+  background: #ffffff;
+  color: #ff3100;
+}
+
 /* Stiky header */
 .is-stuck.site-banner {
   padding: 0;
@@ -179,6 +206,16 @@ html * {
   width: 93px;
   height: 76px;
   background: url('img/readyforit/logo_comexposium.png') no-repeat;
+}
+
+.footer-logos,
+.footer-newsletter,
+.footer-links {
+  flex: 0 0 28%;
+}
+
+.footer-newsletter {
+  text-align: center;
 }
 
 .footer-bottom-container {
