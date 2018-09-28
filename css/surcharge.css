@@ -152,19 +152,44 @@ html * {
 }
 
 .site-footer .inside {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   padding: 4.25em 0 0;
   border-top: 11px solid #565968;
   background: #1e2339;
 }
 
-.footer-top-container,
+.footer-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 11rem;
+}
+
+.logo-comexposium {
+  display: inline-block;
+  width: 215px;
+  height: 36px;
+  background: url('img/readyforit/logo_dg.png') no-repeat;
+}
+
+.logo-dg-consultants {
+  display: inline-block;
+  width: 93px;
+  height: 76px;
+  background: url('img/readyforit/logo_comexposium.png') no-repeat;
+}
+
 .footer-bottom-container {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 11rem;
+  background: #141828;
 }
 
 .site-footer .quicklinks {
-  background: #141828;
 }
 
 
