@@ -47,6 +47,7 @@ body {
   padding: 0.5rem 1.2rem;
   font-size: 1.125rem;
   font-weight: 700;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -127,7 +128,7 @@ body {
 }
 
 .header-date {
-  margin-right: 10rem;
+  margin-right: 9rem;
   padding: 1rem 2rem;
   background-color: #ffffff;
   color: #1e2339;
@@ -185,16 +186,21 @@ body {
 .is-stuck.site-banner .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .is-stuck.site-banner .header-content {
-  padding-left: 15rem;
+  padding-left: 9rem;
   background: transparent;
+}
+
+.is-stuck.site-banner .header-date {
+  margin-right: 0;
 }
 
 .is-stuck.site-banner .header-logo {
   position: absolute;
-  top: -2.3rem;
+  top: -1.5rem;
   left: 0;
   width: 137px;
   height: 170px;
@@ -226,31 +232,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 11rem;
+  padding: 0 7rem;
 }
 
 .footer-logos,
 .footer-newsletter,
 .footer-links {
-  flex: 0 0 30%;
+  flex: 0 0 31%;
 }
 
 .logo-dg-consultants {
   display: inline-block;
-  width: 215px;
-  height: 36px;
-  margin-right: 4rem;
+  width: 93px;
+  height: 76px;
+  margin-right: 2.5rem;
   background: url('img/readyforit/logo_dg.png') no-repeat;
 }
 
 .logo-comexposium {
   display: inline-block;
-  width: 93px;
+  width: 215px;
   height: 76px;
-  background: url('img/readyforit/logo_comexposium.png') no-repeat;
+  background: url('img/readyforit/logo_comexposium.png') no-repeat center;
+}
+
+.footer-logos p {
+  margin-top: 1.5rem;
 }
 
 .footer-newsletter {
+  margin: 0 2rem;
+  padding: 1rem 0;
+  border-right: 1px solid #414555;
+  border-left: 1px solid #414555;
   text-align: center;
 }
 
@@ -262,7 +276,31 @@ body {
   background: #141828;
 }
 
-.site-footer .quicklinks {
+.site-footer .cta-1 {
+  background: #ff3100;
+  color: #ffffff;
+}
+
+.site-footer .cta-2 {
+  background: #ffffff;
+  color: #ff3100;
+}
+
+.site-footer .cta-3 {
+  background: #ffffff;
+  color: #00c485;
+}
+
+.site-footer .newsletter p {
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.site-links .cta-1,
+.site-links .cta-2 {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
 }
 
 
