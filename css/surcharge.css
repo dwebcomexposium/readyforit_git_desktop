@@ -16,6 +16,11 @@ html * {
   font-family: 'Barlow', sans-serif;
 }
 
+html,
+body {
+  font-size: 1rem;
+}
+
 /* Title */
 .title {
   font-size: 20px;
@@ -32,6 +37,32 @@ html * {
 
 .blue {
   color: #00e2ff;
+}
+
+/* Button */
+.cta-1,
+.cta-2,
+.cta-3 {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cta-1 {
+  background: #ff3100;
+  color: #ffffff;
+}
+
+.cta-2 {
+  background: #ffffff;
+  color: #ff3100;
+}
+
+.cta-3 {
+  background: #ffffff;
+  color: #00c485;
 }
 
 /* Arrow */
@@ -69,7 +100,7 @@ html * {
   padding: 0.7em 2em;
   border: 0;
   background: #565968;
-  font-size: 1.3rem;
+  font-size: 0.875rem;
 }
 
 .wrapper,
@@ -79,7 +110,7 @@ html * {
 
 .header-container {
   position: relative;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
 }
 
 .header-content {
@@ -170,6 +201,10 @@ html * {
   background: url('img/readyforit/logo-stiky.png') no-repeat;
 }
 
+.is-stuck .mn-item-lvl-1:first-child {
+  display: block;
+}
+
 
 /***********************************/
 /* FOOTER */
@@ -187,31 +222,32 @@ html * {
   background: #1e2339;
 }
 
-.footer-top-container {
+.site-footer .inside .footer-top-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 11rem;
 }
 
-.logo-comexposium {
-  display: inline-block;
-  width: 215px;
-  height: 36px;
-  background: url('img/readyforit/logo_dg.png') no-repeat;
+.footer-logos,
+.footer-newsletter,
+.footer-links {
+  flex: 0 0 30%;
 }
 
 .logo-dg-consultants {
   display: inline-block;
+  width: 215px;
+  height: 36px;
+  margin-right: 4rem;
+  background: url('img/readyforit/logo_dg.png') no-repeat;
+}
+
+.logo-comexposium {
+  display: inline-block;
   width: 93px;
   height: 76px;
   background: url('img/readyforit/logo_comexposium.png') no-repeat;
-}
-
-.footer-logos,
-.footer-newsletter,
-.footer-links {
-  flex: 0 0 28%;
 }
 
 .footer-newsletter {
