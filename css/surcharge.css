@@ -8,6 +8,14 @@
   src: url('fonts/barlow/Barlow-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/barlow/Barlow-Regular.woff2') format('woff2'), url('fonts/barlow/Barlow-Regular.woff') format('woff'), url('fonts/barlow/Barlow-Regular.ttf') format('truetype'), url('fonts/barlow/Barlow-Regular.svg#Barlow') format('svg');
 }
 
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Barlow-Bold.eot');
+  src: url('Barlow-Bold.eot?#iefix') format('embedded-opentype'), url('Barlow-Bold.woff2') format('woff2'), url('Barlow-Bold.woff') format('woff'), url('Barlow-Bold.ttf')  format('truetype'), url('Barlow-Bold.svg#Barlow') format('svg');
+}
+
 /***********************************/
 /* CUSTOM */
 /***********************************/
@@ -22,8 +30,8 @@ body {
 }
 
 /* Title */
-.title {
-  font-size: 20px;
+.h2 {
+  font-size: 4.25rem;
 }
 
 /* Color */
@@ -196,6 +204,7 @@ body {
 
 .is-stuck.site-banner .header-date {
   margin-right: 0;
+  padding: 0.5rem 0;
 }
 
 .is-stuck.site-banner .header-logo {
