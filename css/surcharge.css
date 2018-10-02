@@ -247,6 +247,7 @@ body {
 }
 
 .site-footer .cta-1 {
+  margin-bottom: 1.25rem;
   background: #ff3100;
   color: #ffffff;
 }
