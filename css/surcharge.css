@@ -30,8 +30,11 @@ body {
 }
 
 /* Title */
-.h2 {
+h2 {
+  margin-bottom: 0;
+  border: 0;
   font-size: 4.25rem;
+  font-weight: 700;
 }
 
 /* Color */
@@ -387,3 +390,45 @@ body {
 /***********************************/
 /* MAIN */
 /***********************************/
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-edito {
+  color: #ff3100;
+}
+
+.title-edito::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 62px;
+  background: url('img/readyforit/icon_edito.svg') no-repeat;
+}
+
+.title-temps-forts {
+  color: #00e2ff;
+}
+
+.title-temps-forts::before {
+  content: '';
+  display: inline-block;
+  width: 61px;
+  height: 61px;
+  background: url('img/readyforit/icon_temps_forts.svg') no-repeat;
+}
+
+.title-actualites {
+  color: #00c485;
+}
+
+.title-actualites::before {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url('img/readyforit/icon_actualites.svg') no-repeat;
+}
