@@ -232,6 +232,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 4.25rem;
   padding: 0 7rem;
 }
 
@@ -239,6 +240,25 @@ body {
 .footer-newsletter,
 .footer-links {
   flex: 0 0 31%;
+}
+
+.site-footer a {
+  color: #b2b6ca;
+}
+
+.site-footer .cta-1 {
+  background: #ff3100;
+  color: #ffffff;
+}
+
+.site-footer .cta-2 {
+  background: #ffffff;
+  color: #ff3100;
+}
+
+.site-footer .cta-3 {
+  background: #ffffff;
+  color: #00c485;
 }
 
 .logo-dg-consultants {
@@ -268,41 +288,90 @@ body {
   text-align: center;
 }
 
-.footer-bottom-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 11rem;
-  background: #141828;
-}
-
-.site-footer .cta-1 {
-  background: #ff3100;
-  color: #ffffff;
-}
-
-.site-footer .cta-2 {
-  background: #ffffff;
-  color: #ff3100;
-}
-
-.site-footer .cta-3 {
-  background: #ffffff;
-  color: #00c485;
-}
-
-.site-footer .newsletter p {
+.footer-newsletter p {
   margin-bottom: 0.8rem;
   font-size: 1.5rem;
 }
 
-.site-links .cta-1,
-.site-links .cta-2 {
+.footer-links .cta-1,
+.footer-links .cta-2 {
   display: block;
   width: 60%;
   margin: 0 auto;
 }
 
+.follow-container {
+  width: 70%;
+  margin: 2rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid #414555;
+  text-align: center;
+}
+
+.follow-text {
+  display: inline-block;
+  padding-right: 0.4375rem;
+  padding-left: 0.625rem;
+  border-left: 5px solid #00e2ff;
+  font-size: 1.125rem;
+}
+
+.twitter-icon,
+.linkedin-icon,
+.youtube-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.4375rem;
+  vertical-align: middle;
+}
+
+.twitter-icon {
+  background: url('img/readyforit/icon_twitter.svg') no-repeat center;
+}
+
+.linkedin-icon {
+  background: url('img/readyforit/icon_linkedin.svg') no-repeat center;
+}
+
+.youtube-icon {
+  background: url('img/readyforit/icon_youtube.svg') no-repeat center;
+}
+
+.site-footer .inside .footer-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7rem;
+  background: #141828;
+  color: #b2b6ca;
+  font-size: 0.75rem;
+}
+
+.footer-bottom-container ul {
+  display: flex;
+}
+
+.footer-bottom-container ul {
+  display: flex;
+}
+
+.footer-bottom-container [class^="btn"] {
+  padding: 0.5rem 0.5rem 0.3rem;
+  border: 0;
+  background: transparent;
+  color: #b2b6ca;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.75rem;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+  border-color: transparent;
+  background-color: transparent;
+  color: #b2b6ca;
+}
 
 
 /***********************************/
