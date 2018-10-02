@@ -301,7 +301,7 @@ body {
 }
 
 .follow-container {
-  width: 70%;
+  width: 80%;
   margin: 2rem auto 0;
   padding-top: 2rem;
   border-top: 1px solid #414555;
@@ -327,15 +327,15 @@ body {
 }
 
 .twitter-icon {
-  background: url('img/readyforit/icon_twitter.svg') no-repeat center;
+  background: url('img/readyforit/icon_twitter.svg') no-repeat;
 }
 
 .linkedin-icon {
-  background: url('img/readyforit/icon_linkedin.svg') no-repeat center;
+  background: url('img/readyforit/icon_linkedin.svg') no-repeat;
 }
 
 .youtube-icon {
-  background: url('img/readyforit/icon_youtube.svg') no-repeat center;
+  background: url('img/readyforit/icon_youtube.svg') no-repeat;
 }
 
 .site-footer .inside .footer-bottom-container {
