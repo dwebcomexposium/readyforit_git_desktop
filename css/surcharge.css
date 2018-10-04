@@ -47,7 +47,7 @@ h2 {
   font-weight: 700;
 }
 
-h2 {
+h3 {
   margin: 0;
   font-size: 3.5rem;
   font-weight: 500;
@@ -418,8 +418,37 @@ h2 {
 /* MAIN */
 /***********************************/
 .site-wrapper {
+  padding: 0;
   background: url('img/readyforit/bg_logo.png') no-repeat right top, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
 }
+
+/* Slider home */
+#zone1 .slider {
+  position: relative;
+}
+
+#zone1 .slider-pagin {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+}
+
+#zone1 .la-slider .slider-item {
+  position: relative;
+  flex: 0 0 100%;
+  height: 420px;
+}
+
+#zone1 .la-slider .slider-item img {
+  height: 100%;
+}
+
+#zone1 .la-slider .slider-item img {
+  height: 100%;
+}
+
 
 .title-container {
   display: flex;
