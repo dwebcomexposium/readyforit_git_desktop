@@ -11,6 +11,13 @@
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
+  font-weight: 500;
+  src: url('fonts/barlow/Barlow-Medium.eot'); src: url('fonts/barlow/Barlow-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/barlow/Barlow-Medium.woff2') format('woff2'), url('fonts/barlow/Barlow-Medium.woff') format('woff'), url('fonts/barlow/Barlow-Medium.ttf')  format('truetype'), url('fonts/barlow/Barlow-Medium.svg#Barlow') format('svg');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
   font-weight: 700;
   src: url('fonts/barlow/Barlow-Bold.eot');
   src: url('fonts/barlow/Barlow-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/barlow/Barlow-Bold.woff2') format('woff2'), url('fonts/barlow/Barlow-Bold.woff') format('woff'), url('fonts/barlow/Barlow-Bold.ttf')  format('truetype'), url('fonts/barlow/Barlow-Bold.svg#Barlow') format('svg');
@@ -24,12 +31,26 @@ html * {
   font-family: 'Barlow', sans-serif;
 }
 
+body {
+  color: #1e2339;
+}
+
 /* Title */
+h1, h2, h3, h4 {
+  color: #1e2339;
+}
+
 h2 {
   margin-bottom: 0;
   border: 0;
   font-size: 5.25rem;
   font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: 500;
 }
 
 /* Color */
@@ -152,6 +173,7 @@ h2 {
 }
 
 .mn-item-lvl-1 > .mn-link {
+  color: #1e2339;
   font-size: 1.8rem;
   text-transform: inherit;
 }
@@ -311,13 +333,19 @@ h2 {
   margin-bottom: 2rem;
 }
 
-
 .site-footer .follow-container {
-  width: 80%;
   margin: 2rem auto 0;
   padding-top: 2rem;
   border-top: 1px solid #414555;
   text-align: center;
+
+  @media (min-width: 641px) {
+    width: 80%;
+  }
+
+  @media (min-width: 1025px) {
+    width: 80%;
+  }
 }
 
 .follow-text {
@@ -339,15 +367,15 @@ h2 {
 }
 
 .twitter-icon {
-  background: url('img/readyforit/icon_twitter.svg') no-repeat;
+  background: url('img/readyforit/icon_twitter.png') no-repeat;
 }
 
 .linkedin-icon {
-  background: url('img/readyforit/icon_linkedin.svg') no-repeat;
+  background: url('img/readyforit/icon_linkedin.png') no-repeat;
 }
 
 .youtube-icon {
-  background: url('img/readyforit/icon_youtube.svg') no-repeat;
+  background: url('img/readyforit/icon_youtube.png') no-repeat;
 }
 
 .site-footer .inside .footer-bottom-container {
@@ -389,6 +417,9 @@ h2 {
 /***********************************/
 /* MAIN */
 /***********************************/
+.site-wrapper {
+  background: url('img/readyforit/bg_logo.png') no-repeat right top, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+}
 
 .title-container {
   display: flex;
@@ -396,18 +427,18 @@ h2 {
   justify-content: space-between;
 }
 
-.title-edito,
 .title-temps-forts,
 .title-actualites {
   display: flex;
   align-items: center;
 }
 
-.title-edito {
+/* Edito */
+.edito h2 {
   color: #ff3100;
 }
 
-.title-edito::before,
+.edito h2::before,
 .title-temps-forts::before,
 .title-actualites::before {
   content: '';
@@ -415,12 +446,17 @@ h2 {
   margin-right: 2rem;
 }
 
-.title-edito::before {
+.edito h2::before {
   width: 15px;
   height: 62px;
-  background: url('img/readyforit/icon_edito.svg') no-repeat;
+  background: url('img/readyforit/icon_edito.png') no-repeat;
 }
 
+.edito h3 {
+
+}
+
+/* Temps forts */
 .title-temps-forts {
   color: #00e2ff;
 }
@@ -428,9 +464,11 @@ h2 {
 .title-temps-forts::before {
   width: 61px;
   height: 61px;
-  background: url('img/readyforit/icon_temps_forts.svg') no-repeat;
+  background: url('img/readyforit/icon_temps_forts.png') no-repeat;
 }
 
+
+/* Actualités */
 .title-actualites {
   color: #00c485;
 }
@@ -438,7 +476,7 @@ h2 {
 .title-actualites::before {
   width: 60px;
   height: 60px;
-  background: url('img/readyforit/icon_actualites.svg') no-repeat;
+  background: url('img/readyforit/icon_actualites.png') no-repeat;
 }
 
 .title-link {
