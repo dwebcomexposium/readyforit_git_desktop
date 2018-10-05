@@ -419,13 +419,13 @@ h3 {
 /***********************************/
 .site-wrapper {
   padding: 0;
-  background: url('img/readyforit/bg_logo.png') no-repeat right 260px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+  background: url('img/readyforit/bg_logo.png') no-repeat right 540px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
 }
 
 .pub-container {
   width: 970px;
   height: 90px;
-  margin: 3rem auto;
+  margin: 1rem auto;
   background: #a3bbd8;
 }
 
@@ -446,7 +446,8 @@ h3 {
   background: transparent;
 }
 
-#zone1 .la-slider .slider-pagin-btn {
+#zone1 .la-slider .slider-pagin-btn,
+#zone1 .slider-content .la-item-btn {
   display: none;
 }
 
@@ -512,6 +513,11 @@ h3 {
 }
 
 /* Edito */
+#zone2 .edito {
+  padding: 6rem 0 0 6rem;
+  background: url('img/readyforit/bg_logo.png') no-repeat right top;
+}
+
 #zone2 .edito h2 {
   color: #ff3100;
 }
