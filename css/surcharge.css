@@ -547,10 +547,16 @@ h3 {
 .focus-container::after {
   content: '+';
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  position: absolute;
+  top: calc(50% - 18px);
+  right: -17px;
+  width: 36px;
+  height: 36px;
   background: #ffffff;
   color: #1e2339;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 0.8;
 }
 
 
