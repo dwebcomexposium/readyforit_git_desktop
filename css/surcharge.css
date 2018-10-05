@@ -504,7 +504,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 8rem;
+  padding: 0 10rem;
 }
 
 .title-temps-forts,
@@ -620,8 +620,9 @@ h3 {
 
 /* Programme */
 .program-container {
+  position: relative;
   width: 86%;
-  margin: 0 auto;
+  margin: 3rem auto 9rem;
   padding: 3.7rem 5rem;
   background: url(img/readyforit/bg_2.jpg) no-repeat 0 0 / cover;
   color: #ffffff;
@@ -634,14 +635,13 @@ h3 {
 
 .program-focus {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-around;
   margin: 4rem auto;
 }
 
 .program-focus a {
   position: relative;
-  width: 30%;
+  width: 20%;
   padding: 1.5rem 2rem;
   background: #1e2339;
   color: #ffffff;
@@ -655,21 +655,22 @@ h3 {
   content: '+';
   display: inline-block;
   position: absolute;
-  top: calc(50% - 18px);
-  right: -17px;
-  width: 36px;
-  height: 36px;
+  top: calc(50% - 13px);
+  right: -13px;
+  width: 26px;
+  height: 26px;
   background: #ffffff;
   color: #1e2339;
-  font-size: 4rem;
+  font-size: 2.8rem;
   font-weight: 500;
   line-height: 0.8;
+  text-align: center;
 }
 
 .btn-container {
   position: absolute;
   right: 0;
-  bottom: -24px;
+  bottom: -30px;
   left: 0;
 }
 
@@ -679,7 +680,7 @@ h3 {
   padding: 1rem 2rem;
   background: #ffffff;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
-  color: #1e2339;
+  color: #ff3100;
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
