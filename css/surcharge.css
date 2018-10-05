@@ -429,6 +429,10 @@ h3 {
   background: #a3bbd8;
 }
 
+.main-title-with-link {
+  display: none;
+}
+
 /* Slider home */
 #zone1 .slider {
   position: relative;
@@ -526,72 +530,6 @@ h3 {
   background: url('img/readyforit/icon_edito.png') no-repeat;
 }
 
-/* Temps forts */
-.title-temps-forts {
-  color: #00e2ff;
-}
-
-.title-temps-forts::before {
-  width: 61px;
-  height: 61px;
-  background: url('img/readyforit/icon_temps_forts.png') no-repeat;
-}
-
-#zone2 .list-articles:last-child {
-  margin-top: 0;
-}
-
-#zone2 .list-articles:last-child .main-title-with-link {
-  display: none;
-}
-
-#zone2 .list-articles:last-child .slider {
-  position: relative;
-}
-
-#zone2 .list-articles:last-child .slider-content {
-  display: flex;
-  justify-content: space-between;
-  width: 82%;
-  margin: 7rem auto;
-}
-
-#zone2 .list-articles:last-child .slider-item {
-  width: 363px;
-  background: #ffffff;
-}
-
-#zone2 .list-articles:last-child .la-item-content,
-#zone2 .list-articles:last-child .la-item-title,
-#zone2 .list-articles:last-child .la-item-title a {
-  color: #1e2339;
-}
-
-#zone2 .list-articles:last-child .la-item-content {
-  padding: 2.5rem 2rem;
-}
-
-#zone2 .list-articles:last-child .la-item-title,
-#zone2 .list-articles:last-child .la-item-title a {
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
-#zone2 .list-articles:last-child .la-item-content p {
-  margin-top: 2rem;
-}
-
-#zone2 .list-articles:last-child .la-item-content .btn-primary {
-  padding: 0;
-  border: 0;
-  border-left: 5px solid #00e2ff;
-  background: transparent;
-  color: #1e2339;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: initial;
-}
-
 
 /* Actualités */
 .title-actualites {
@@ -612,6 +550,84 @@ h3 {
   color: #1e2339;
   font-size: 1.8rem;
   text-decoration: none;
+}
+
+#zone2 .list-articles:nth-child(2) .la-list.has-2col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#zone2 .list-articles:nth-child(2) .la-column {
+  display: flex;
+}
+
+#zone2 .list-articles:nth-child(2) .la-column .la-item {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Temps forts */
+.title-temps-forts {
+  color: #00e2ff;
+}
+
+.title-temps-forts::before {
+  width: 61px;
+  height: 61px;
+  background: url('img/readyforit/icon_temps_forts.png') no-repeat;
+}
+
+#zone2 .list-articles:nth-child(3) {
+  margin-top: 0;
+}
+
+#zone2 .list-articles:nth-child(3) .slider {
+  position: relative;
+}
+
+#zone2 .list-articles:nth-child(3) .slider-content {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  margin: 7rem auto;
+}
+
+#zone2 .list-articles:nth-child(3) .slider-item {
+  width: 363px;
+  background: #ffffff;
+}
+
+#zone2 .list-articles:nth-child(3) .la-item-content,
+#zone2 .list-articles:nth-child(3) .la-item-title,
+#zone2 .list-articles:nth-child(3) .la-item-title a {
+  color: #1e2339;
+}
+
+#zone2 .list-articles:nth-child(3) .la-item-content {
+  padding: 2.5rem 2rem;
+}
+
+#zone2 .list-articles:nth-child(3) .la-item-title,
+#zone2 .list-articles:nth-child(3) .la-item-title a {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#zone2 .list-articles:nth-child(3) .la-item-content p {
+  margin-top: 2rem;
+}
+
+#zone2 .list-articles:nth-child(3) .la-item-content .btn-primary {
+  padding: 0;
+  border: 0;
+  border-left: 5px solid #00e2ff;
+  background: transparent;
+  color: #1e2339;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: initial;
 }
 
 
@@ -654,10 +670,6 @@ h3 {
 
 #zone4 .partner {
   margin-top: 0;
-}
-
-#zone4 .main-title-with-link {
-  display: none;
 }
 
 #zone4 .slider {
