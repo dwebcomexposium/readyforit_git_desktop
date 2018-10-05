@@ -537,6 +537,61 @@ h3 {
   background: url('img/readyforit/icon_temps_forts.png') no-repeat;
 }
 
+#zone2 .list-articles:last-child {
+  margin-top: 0;
+}
+
+#zone2 .list-articles:last-child .main-title-with-link {
+  display: none;
+}
+
+#zone2 .list-articles:last-child .slider {
+  position: relative;
+}
+
+#zone2 .list-articles:last-child .slider-content {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  margin: 7rem auto;
+}
+
+#zone2 .list-articles:last-child .slider-item {
+  width: 363px;
+  background: #ffffff;
+}
+
+#zone2 .list-articles:last-child .la-item-content,
+#zone2 .list-articles:last-child .la-item-title,
+#zone2 .list-articles:last-child .la-item-title a {
+  color: #1e2339;
+}
+
+#zone2 .list-articles:last-child .la-item-content {
+  padding: 2.5rem 2rem;
+}
+
+#zone2 .list-articles:last-child .la-item-title,
+#zone2 .list-articles:last-child .la-item-title a {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#zone2 .list-articles:last-child .la-item-content p {
+  margin-top: 2rem;
+}
+
+#zone2 .list-articles:last-child .la-item-content .btn-primary {
+  padding: 0;
+  border: 0;
+  border-left: 5px solid #00e2ff;
+  background: transparent;
+  color: #1e2339;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: initial;
+}
+
 
 /* Actualités */
 .title-actualites {
@@ -558,6 +613,7 @@ h3 {
   font-size: 1.8rem;
   text-decoration: none;
 }
+
 
 /* Partenaires */
 #zone4 {
@@ -597,8 +653,7 @@ h3 {
 }
 
 #zone4 .partner {
-  width: 90.5%;
-  margin: 0 auto;
+  margin-top: 0;
 }
 
 #zone4 .main-title-with-link {
