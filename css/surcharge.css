@@ -419,7 +419,14 @@ h3 {
 /***********************************/
 .site-wrapper {
   padding: 0;
-  background: url('img/readyforit/bg_logo.png') no-repeat right top, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+  background: url('img/readyforit/bg_logo.png') no-repeat right 260px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+}
+
+.pub-container {
+  width: 970px;
+  height: 90px;
+  margin: 3rem auto;
+  background: #a3bbd8;
 }
 
 /* Slider home */
@@ -483,6 +490,10 @@ h3 {
   line-height: 1.2;
 }
 
+#zone1 .la-slider .la-item-content p {
+  margin-top: 2.5rem;
+}
+
 
 .title-container {
   display: flex;
@@ -497,11 +508,11 @@ h3 {
 }
 
 /* Edito */
-.edito h2 {
+#zone2 .edito h2 {
   color: #ff3100;
 }
 
-.edito h2::before,
+#zone2 .edito h2::before,
 .title-temps-forts::before,
 .title-actualites::before {
   content: '';
@@ -509,7 +520,7 @@ h3 {
   margin-right: 2rem;
 }
 
-.edito h2::before {
+#zone2 .edito h2::before {
   width: 15px;
   height: 62px;
   background: url('img/readyforit/icon_edito.png') no-repeat;
@@ -546,4 +557,9 @@ h3 {
   color: #1e2339;
   font-size: 1.8rem;
   text-decoration: none;
+}
+
+/* Partenaires */
+#zone4 .edito {
+
 }
