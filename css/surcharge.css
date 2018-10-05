@@ -560,9 +560,12 @@ h3 {
 }
 
 /* Partenaires */
-#zone4 .edito {
+#zone4 {
   width: 86%;
   margin: 0 auto;
+}
+
+#zone4 .edito {
   padding: 3.7rem 5rem;
   background: url('img/readyforit/bg_3.jpg') no-repeat 0 0;
   color: #ffffff;
@@ -583,7 +586,7 @@ h3 {
   display: inline-block;
   margin-top: 3rem;
   padding: 1rem 2rem;
-  background-color: #ffffff;
+  background: #ffffff;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #1e2339;
   font-size: 1.8rem;
@@ -594,4 +597,9 @@ h3 {
 
 #zone4 .partner {
   margin-top: 0;
+  background: #ffffff;
+}
+
+#zone4 .main-title-with-link {
+  display: none;
 }
