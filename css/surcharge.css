@@ -567,7 +567,7 @@ h3 {
 
 #zone4 .edito {
   padding: 3.7rem 5rem;
-  background: url('img/readyforit/bg_3.jpg') no-repeat 0 0;
+  background: url('img/readyforit/bg_3.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
   font-size: 2.6rem;
   font-weight: 500;
@@ -576,6 +576,7 @@ h3 {
 
 #zone4 .edito h2 {
   color: #ffffff;
+  line-height: 1.2;
 }
 
 #zone4 .edito p {
@@ -596,10 +597,37 @@ h3 {
 }
 
 #zone4 .partner {
-  margin-top: 0;
-  background: #ffffff;
+  width: 90.5%;
+  margin: 0 auto;
 }
 
 #zone4 .main-title-with-link {
+  display: none;
+}
+
+#zone4 .slider {
+  position: relative;
+  background: #ffffff;
+}
+
+#zone4 .slider-content {
+  margin: 0 auto;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+#zone4 .slider-pagin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  border: 0;
+}
+
+#zone4 .slider-pagin-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#zone4 .pg-pagin-nb {
   display: none;
 }
