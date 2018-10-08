@@ -420,6 +420,7 @@ h3 {
 .site-wrapper {
   padding: 0;
   background: url('img/readyforit/bg_logo.png') no-repeat right 540px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+  background-color: #ffffff;
 }
 
 .pub-container {
@@ -608,11 +609,77 @@ h3 {
   align-items: center;
 }
 
+#zone2 .list-articles:not(:first-child) .link-read-more {
+  padding-left: 0.3rem;
+  border-left: 5px solid #00c485;
+  color: #1e2339;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item {
+  position: relative;
+  width: 75%;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-header {
+  text-align: right;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-header img {
+  width: 100%;
+  max-width: 570px;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-title-wrap {
+  display: none;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-content {
+  position: absolute;
+  z-index: 5;
+  top: 8rem;
+  left: 0;
+  width: 60%;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-desc {
+  display: inline;
+  background-color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-desc u {
+  color: #00c485;
+  text-decoration: none;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-btn {
+  margin-top: 3.5rem;
+}
+
+#zone2 .list-articles:not(:first-child) article.la-item .la-item-btn a {
+  padding-left: 0.3rem;
+  border-left: 5px solid #00c485;
+  color: #1e2339;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 #zone2 .list-articles:not(:first-child) .la-column {
   display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0;
 }
 
 #zone2 .list-articles:not(:first-child) .la-column .la-item {
+  width: 22%;
   margin: 0;
   padding: 0;
 }
