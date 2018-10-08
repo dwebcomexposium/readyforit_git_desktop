@@ -840,6 +840,9 @@ h3 {
 
 #zone2 .highlight-container .slider {
   position: relative;
+}
+
+#zone2 .highlight-container .slider-content {
   width: 82%;
   margin: 0 auto 7rem;
 }
