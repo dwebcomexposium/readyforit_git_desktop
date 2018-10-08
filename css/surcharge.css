@@ -618,26 +618,26 @@ h3 {
   text-decoration: none;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child {
   position: relative;
   width: 75%;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-header {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-header {
   text-align: right;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-header img {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-header img {
   width: 100%;
   max-width: 570px;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-title-wrap {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-title-wrap {
   display: none;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-content {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-content {
   position: absolute;
   z-index: 5;
   top: 8rem;
@@ -645,7 +645,7 @@ h3 {
   width: 60%;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-desc {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-desc {
   display: inline;
   background-color: #ffffff;
   font-size: 3.5rem;
@@ -653,16 +653,16 @@ h3 {
   line-height: 1.5;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-desc u {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-desc u {
   color: #00c485;
   text-decoration: none;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-btn {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-btn {
   margin-top: 3.5rem;
 }
 
-#zone2 .list-articles:not(:first-child) article.la-item .la-item-btn a {
+#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-btn a {
   padding-left: 0.3rem;
   border-left: 5px solid #00c485;
   color: #1e2339;
