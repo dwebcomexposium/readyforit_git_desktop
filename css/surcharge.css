@@ -101,6 +101,29 @@ h3 {
   border-left: solid 7px #f39005;
 }
 
+/* Slider */
+.slider [class*="slider-btn"] {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  background: #1e2339;
+  font-size: 1.4rem;
+}
+
+.slider [class*="slider-btn"]:focus,
+.slider [class*="slider-btn"]:hover {
+  background: #ffffff;
+}
+
+.slider [class*="slider-btn"] .icon {
+  color: #ffffff;
+}
+
+.slider [class*="slider-btn"]:focus .icon,
+.slider [class*="slider-btn"]:hover .icon {
+  color: #1e2339;
+}
+
 
 /***********************************/
 /* HEADER */
@@ -817,12 +840,8 @@ h3 {
 
 #zone2 .highlight-container .slider {
   position: relative;
-}
-
-#zone2 .highlight-container .slider-content {
   width: 82%;
   margin: 0 auto 7rem;
-  overflow: hidden;
 }
 
 #zone2 .highlight-container .slider-item {
@@ -833,7 +852,7 @@ h3 {
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
-#zone2 .highlight-container .slider-item {
+#zone2 .highlight-container .slider-item:hover {
   margin: 5rem 2rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
@@ -871,6 +890,20 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: initial;
+}
+
+#zone2 .highlight-container .slider-pagin {
+  position: absolute;
+  top: calc(50% - 18px);
+  right: 0;
+  left: 0;
+  background: transparent;
+}
+
+#zone2 .highlight-container .slider-pagin-btn {
+  display: flex;
+  position: initial;
+  justify-content: space-between;
 }
 
 
