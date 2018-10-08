@@ -624,7 +624,7 @@ h3 {
 }
 
 #zone2 .list-articles:not(:first-child) .link-read-more {
-  padding-left: 0.5rem;
+  padding-left: 0.8rem;
   border-left: 5px solid #00c485;
   color: #1e2339;
   font-size: 1.5rem;
@@ -642,10 +642,6 @@ h3 {
 }
 
 #zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-header {
-  max-height: 330px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   text-align: right;
 }
 
@@ -668,7 +664,7 @@ h3 {
 #zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-content {
   position: absolute;
   z-index: 5;
-  top: 7rem;
+  top: 1rem;
   left: 0;
   width: 60%;
 }
@@ -694,7 +690,7 @@ h3 {
   display: flex;
   justify-content: center;
   width: 85%;
-  margin-top: 6rem;
+  margin: 6rem 0;
   padding: 0;
 }
 
@@ -703,6 +699,13 @@ h3 {
   margin: 0 2.5rem;
   padding: 0;
   border: 0;
+  background: #ffffff;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+
+#zone2 .list-articles:not(:first-child) .la-column .la-item:hover {
+  margin: 0 2.5rem;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 #zone2 .list-articles:not(:first-child) .la-column .la-item-header {
@@ -710,6 +713,19 @@ h3 {
   align-items: center;
   max-height: 120px;
   overflow: hidden;
+}
+
+#zone2 .list-articles:not(:first-child) .la-column .la-item-content {
+  padding: 2rem;
+}
+
+#zone2 .list-articles:not(:first-child) .la-column .la-item-desc {
+  font-size: initial;
+  line-height: 1.2;
+}
+
+#zone2 .list-articles:not(:first-child) .la-column p {
+  margin-top: 1.5rem;
 }
 
 
