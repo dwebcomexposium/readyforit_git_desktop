@@ -555,6 +555,7 @@ h3 {
 
 /* Focus */
 .focus-container {
+  display: inline-block;
   position: relative;
   width: 780px;
   margin: 6rem 0 6rem 15%;
@@ -564,6 +565,13 @@ h3 {
   font-size: 3rem;
   line-height: 1.3;
   text-align: center;
+  text-decoration: none;
+}
+
+.focus-container:hover,
+.focus-container:focus,
+.focus-container:active {
+  color: #ffffff;
 }
 
 .focus-container::after {
@@ -603,10 +611,16 @@ h3 {
   text-decoration: none;
 }
 
+#zone2 .grid-la-list {
+  margin-left: 0;
+}
+
 #zone2 .list-articles:not(:first-child) .la-list.has-2col {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  background: url('img/readyforit/bg_actualites.jpg') no-repeat 0 355px;
 }
 
 #zone2 .list-articles:not(:first-child) .link-read-more {
@@ -616,6 +630,10 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+#zone2 .list-articles:not(:first-child) .link-read-more .icon {
+  display: none;
 }
 
 #zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child {
@@ -662,25 +680,17 @@ h3 {
   margin-top: 3.5rem;
 }
 
-#zone2 .list-articles:not(:first-child) .la-highlight > .la-item:first-child .la-item-btn a {
-  padding-left: 0.3rem;
-  border-left: 5px solid #00c485;
-  color: #1e2339;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 #zone2 .list-articles:not(:first-child) .la-column {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: center;
+  width: 85%;
+  margin-top: 6rem;
   padding: 0;
 }
 
 #zone2 .list-articles:not(:first-child) .la-column .la-item {
   width: 22%;
-  margin: 0;
+  margin: 0 2.5rem;
   padding: 0;
 }
 
