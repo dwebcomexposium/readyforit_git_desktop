@@ -689,6 +689,7 @@ h3 {
 #zone2 .actu-container .la-column {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   width: 85%;
   margin: 0 0 6rem;
   padding: 0;
@@ -698,7 +699,7 @@ h3 {
   width: 22%;
   margin: 6rem 2.5rem 0;
   padding: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-out;
   border: 0;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
