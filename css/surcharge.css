@@ -315,7 +315,6 @@ h3 {
 }
 
 .site-footer .cta-1 {
-  background: #ff3100;
   color: #ffffff;
 }
 
@@ -324,7 +323,6 @@ h3 {
 }
 
 .site-footer .cta-2 {
-  background: #ffffff;
   color: #ff3100;
 }
 
@@ -637,6 +635,24 @@ h3 {
   font-size: 4rem;
   font-weight: 500;
   line-height: 0.8;
+}
+
+
+/* Vidéos */
+.videos-container {
+  width: 86%;
+  margin: 0 auto;
+  background: url('img/readyforit/bg_1.jpg') no-repeat;
+  color: #ffffff;
+}
+
+.videos-container a {
+  padding-left: 0.8rem;
+  border-left: 5px solid #00c485;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 
