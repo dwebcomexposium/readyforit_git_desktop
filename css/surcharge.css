@@ -43,15 +43,10 @@ h1, h2, h3, h4 {
 h2 {
   margin-bottom: 0;
   border: 0;
-  font-size: 5.25rem;
+  font-size: 6.25rem;
   font-weight: 700;
 }
 
-h3 {
-  margin: 0;
-  font-size: 3.5rem;
-  font-weight: 500;
-}
 
 /* Color */
 .orange-light {
@@ -589,7 +584,10 @@ h3 {
   background: url('img/readyforit/icon_edito.png') no-repeat;
 }
 
-#zone2 .edito h3 {
+#zone2 .edito h4 {
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -644,6 +642,12 @@ h3 {
   margin: 0 auto;
   background: url('img/readyforit/bg_1.jpg') no-repeat;
   color: #ffffff;
+}
+
+.videos-container h2 {
+  color: #ffffff;
+  font-size: 5.25rem;
+  font-weight: 500;
 }
 
 .videos-container a {
@@ -809,6 +813,8 @@ h3 {
 
 .program-container h2 {
   color: #ffffff;
+  font-size: 5.25rem;
+  font-weight: 500;
 }
 
 .program-focus {
@@ -987,6 +993,8 @@ h3 {
 
 #zone4 .edito h2 {
   color: #ffffff;
+  font-size: 5.25rem;
+  font-weight: 500;
   line-height: 1.2;
 }
 
