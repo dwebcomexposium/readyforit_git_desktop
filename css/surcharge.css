@@ -319,14 +319,25 @@ h3 {
   color: #ffffff;
 }
 
+.site-footer .cta-1:hover {
+  color: #ff3100;
+}
+
 .site-footer .cta-2 {
   background: #ffffff;
   color: #ff3100;
 }
 
+.site-footer .cta-2:hover {
+  color: #ffffff;
+}
+
 .site-footer .cta-3 {
-  background: #ffffff;
   color: #00c485;
+}
+
+.site-footer .cta-3:hover {
+  color: #ffffff;
 }
 
 .logo-dg-consultants {
@@ -871,8 +882,6 @@ h3 {
 
 #zone2 .highlight-container .slider-content {
   align-items: flex-start;
-  width: 82%;
-  margin: 0 auto 7rem;
 }
 
 #zone2 .highlight-container .slider-item {
