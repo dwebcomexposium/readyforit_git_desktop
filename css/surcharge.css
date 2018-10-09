@@ -442,7 +442,7 @@ h3 {
 /***********************************/
 .site-wrapper {
   padding: 0 0 2rem;
-  background: url('img/readyforit/bg_logo.png') no-repeat right 540px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+  background: url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
   background-color: #ffffff;
 }
 
@@ -687,7 +687,7 @@ h3 {
 #zone2 .actu-container .la-highlight > .la-item:first-child .la-item-content {
   position: absolute;
   z-index: 5;
-  top: 1rem;
+  top: 4rem;
   left: 0;
   width: 60%;
 }
@@ -833,6 +833,10 @@ h3 {
   background: url('img/readyforit/icon_temps_forts.png') no-repeat;
 }
 
+#zone2 {
+  background: url(img/readyforit/bg_logo.png) no-repeat right 25px;
+}
+
 #zone2 .highlight-container {
   margin-top: 0;
   background: url('img/readyforit/bg_tempsforts.jpg') no-repeat center right;
@@ -843,6 +847,7 @@ h3 {
 }
 
 #zone2 .highlight-container .slider-content {
+  justify-content: flex-start;
   width: 82%;
   margin: 0 auto 7rem;
 }
@@ -871,6 +876,7 @@ h3 {
 }
 
 #zone2 .highlight-container .la-item-content {
+  max-height: 225px;
   padding: 2.5rem 2rem;
 }
 
@@ -878,6 +884,7 @@ h3 {
 #zone2 .highlight-container .la-item-title a {
   font-size: 2.5rem;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 #zone2 .highlight-container .la-item-content p {
@@ -914,6 +921,7 @@ h3 {
 #zone4 {
   width: 86%;
   margin: 0 auto;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 #zone4 .edito {
@@ -950,7 +958,6 @@ h3 {
 #zone4 .partner {
   margin-top: 0;
   margin-bottom: 4rem;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 #zone4 .slider {
