@@ -567,7 +567,7 @@ h2 {
 }
 
 #zone2 .edito .inside {
-  width: 37%;
+  width: 42%;
 }
 
 #zone2 .edito h2 {
@@ -595,6 +595,10 @@ h2 {
   line-height: 1.2;
 }
 
+#zone2 .edito p {
+  margin-top: 2rem;
+}
+
 #zone2 .edito .edito-item-btn a {
   padding-left: 0.8rem;
   border-left: 5px solid #ff3100;
@@ -608,7 +612,7 @@ h2 {
   display: inline-block;
   position: relative;
   width: 780px;
-  margin: 6rem 0 6rem 15%;
+  margin: 6rem 0 11rem 15%;
   padding: 1rem 6rem;
   background: #ff7600;
   color: #ffffff;
@@ -644,6 +648,7 @@ h2 {
 .videos-container {
   position: relative;
   width: 76%;
+  margin-top: 4rem;
   margin-left: 7%;
   padding: 7rem 4rem;
   background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
