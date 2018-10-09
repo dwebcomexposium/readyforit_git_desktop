@@ -441,7 +441,7 @@ h3 {
 /* MAIN */
 /***********************************/
 .site-wrapper {
-  padding: 0;
+  padding: 0 0 2rem;
   background: url('img/readyforit/bg_logo.png') no-repeat right 540px, url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
   background-color: #ffffff;
 }
@@ -949,6 +949,8 @@ h3 {
 
 #zone4 .partner {
   margin-top: 0;
+  margin-bottom: 4rem;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 #zone4 .slider {
@@ -958,7 +960,10 @@ h3 {
 
 #zone4 .slider-content {
   margin: 0 auto;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+#zone4 .pg-item-title {
+  display: none;
 }
 
 #zone4 .slider-pagin {
