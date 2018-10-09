@@ -643,8 +643,8 @@ h2 {
 /* Vidéos */
 .videos-container {
   position: relative;
-  width: 86%;
-  margin: 0 auto;
+  width: 76%;
+  margin-left: 7%;
   padding: 7rem 4rem;
   background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
