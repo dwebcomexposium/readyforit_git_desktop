@@ -82,14 +82,29 @@ h3 {
   color: #ffffff;
 }
 
+.cta-1:hover {
+  background: #ffffff;
+  color: #ff3100;
+}
+
 .cta-2 {
   background: #ffffff;
   color: #ff3100;
 }
 
+.cta-2:hover {
+  background: #ff3100;
+  color: #ffffff;
+}
+
 .cta-3 {
   background: #ffffff;
   color: #00c485;
+}
+
+.cta-3:hover {
+  background: #00c485;
+  color: #ffffff;
 }
 
 /* Arrow */
@@ -228,20 +243,6 @@ h3 {
   background: #ffffff;
   color: #ff3100;
 }
-
-/*.mn-item-lvl-2 .mn-menu-submenu {
-  position: initial;
-}
-
-.mn-item-lvl-2.mn-item-has-submenu > a::after {
-  display: none;
-}
-
-.mn-item-lvl-2 .mn-menu-submenu .mn-link:hover,
-.mn-item-lvl-2 .mn-menu-submenu .mn-link:focus,
-.mn-item-lvl-2 .mn-menu-submenu .mn-link.is-active {
-  padding-left: 4.5rem;
-}*/
 
 
 /* Stiky header */
@@ -837,6 +838,11 @@ h3 {
   text-decoration: none;
 }
 
+.program-btn:hover {
+  background: #ff3100;
+  color: #ffffff;
+}
+
 /* Temps forts */
 .title-temps-forts {
   color: #00e2ff;
@@ -853,12 +859,14 @@ h3 {
 }
 
 #zone2 .highlight-container {
+  position: relative;
   margin-top: 0;
   background: url('img/readyforit/bg_tempsforts.jpg') no-repeat center right;
 }
 
 #zone2 .highlight-container .slider {
-  position: relative;
+  width: 82%;
+  margin: 0 auto 7rem;
 }
 
 #zone2 .highlight-container .slider-content {
@@ -931,6 +939,10 @@ h3 {
   justify-content: space-between;
 }
 
+#zone2 .highlight-container .slider-pagin-nb {
+  display: none;
+}
+
 
 /* Partenaires */
 #zone4 {
@@ -968,6 +980,11 @@ h3 {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+}
+
+#zone4 .edito a:hover {
+  background: #1e2339;
+  color: #ffffff;
 }
 
 #zone4 .partner {
