@@ -229,6 +229,21 @@ h3 {
   color: #ff3100;
 }
 
+.mn-item-lvl-2 .mn-menu-submenu {
+  position: initial;
+}
+
+.mn-item-lvl-2.mn-item-has-submenu > a::after {
+  display: none;
+}
+
+.mn-item-lvl-2 .mn-menu-submenu .mn-link:hover,
+.mn-item-lvl-2 .mn-menu-submenu .mn-link:focus,
+.mn-item-lvl-2 .mn-menu-submenu .mn-link.is-active {
+  padding-left: 4.5rem;
+}
+
+
 /* Stiky header */
 .is-stuck.site-banner {
   padding: 0;
