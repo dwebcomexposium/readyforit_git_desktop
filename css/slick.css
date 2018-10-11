@@ -109,15 +109,6 @@
   background: #ffffff url('img/ajax-loader.gif') center center no-repeat;
 }
 
-/* Icons */
-@font-face {
-  font-family: 'slick';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/slick/slick.eot');
-  src: url('fonts/slick/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick/slick.woff') format('woff'), url('fonts/slick/slick.ttf') format('truetype'), url('fonts/slick/slick.svg#slick') format('svg');
-}
-
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -164,7 +155,7 @@
 .slick-next::before {
   opacity: 0.75;
   color: #ffffff;
-  font-family: 'slick';
+  font-family: 'icon';
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -181,11 +172,11 @@
 }
 
 .slick-prev::before {
-  content: 'â†';
+  content: '\e604';
 }
 
 [dir='rtl'] .slick-prev::before {
-  content: 'â†’';
+  content: '\e616';
 }
 
 .slick-next {
@@ -198,11 +189,11 @@
 }
 
 .slick-next::before {
-  content: 'â†’';
+  content: '\e616';
 }
 
 [dir='rtl'] .slick-next::before {
-  content: 'â†';
+  content: '\e604';
 }
 
 /* Dots */
@@ -250,29 +241,22 @@
   outline: none;
 }
 
-.slick-dots li button:hover::before,
-.slick-dots li button:focus::before {
+.slick-dots li button:hover,
+.slick-dots li button:focus {
   opacity: 1;
 }
 
-.slick-dots li button::before {
-  content: 'â€¢';
+.slick-dots li button {
+  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
-  opacity: 0.25;
-  color: black;
-  font-family: 'slick';
-  font-size: 6px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 20px;
-  text-align: center;
+  width: 13px;
+  height: 13px;
+  opacity: 0.5;
+  background: #ffffff;
 }
 
-.slick-dots li.slick-active button::before {
-  opacity: 0.75;
-  color: black;
+.slick-dots li.slick-active button {
+  opacity: 1;
 }
