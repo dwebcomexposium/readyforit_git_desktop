@@ -654,6 +654,7 @@ h2 {
 .videos-container {
   position: relative;
   width: 76%;
+  max-width: 1136px;
   margin-bottom: 4rem;
   margin-left: 7%;
   padding: 7rem 4rem;
@@ -798,6 +799,7 @@ h2 {
 
 #zone2 .actu-container .la-column .la-item {
   width: 22%;
+  max-width: 260px;
   margin: 6rem 2.5rem 0;
   padding: 0;
   transition: all 0.3s ease-out;
@@ -835,6 +837,7 @@ h2 {
 .program-container {
   position: relative;
   width: 86%;
+  max-width: 1240px;
   margin: 3rem auto 9rem;
   padding: 3.7rem 5rem;
   background: url(img/readyforit/bg_2.jpg) no-repeat 0 0 / cover;
@@ -946,6 +949,7 @@ h2 {
 
 #zone2 .highlight-container .slider-item {
   width: 31%;
+  max-width: 363px;
   margin: 6rem 4rem 0 0;
   transition: all 0.3s ease-out;
   background: #ffffff;
@@ -1022,6 +1026,9 @@ h2 {
 }
 
 #zone4 .edito {
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 3.7rem 5rem;
   background: url('img/readyforit/bg_3.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
@@ -1060,8 +1067,8 @@ h2 {
 }
 
 #zone4 .partner {
-  margin-top: 0;
-  margin-bottom: 4rem;
+  max-width: 1240px;
+  margin: 0 auto 4rem;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
