@@ -688,9 +688,25 @@ h2 {
 }
 
 .videos {
-
+  position: absolute;
+  top: 20%;
+  right: -95px;
+  width: 575px;
 }
 
+.videos .slick-prev,
+.videos .slick-next {
+  top: auto;
+  bottom: -25px;
+}
+
+.videos .slick-prev {
+  left: 31%;
+}
+
+.videos .slick-next {
+  right: 31%;
+}
 
 /* Actualités */
 .title-actualites {
