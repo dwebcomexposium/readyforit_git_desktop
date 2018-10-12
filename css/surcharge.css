@@ -709,7 +709,7 @@ h2 {
   right: -95px;
   width: 570px;
   height: 330px;
-
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
 
 .videos .slick-prev,
@@ -726,6 +726,10 @@ h2 {
 
 .videos .slick-next {
   right: 0;
+}
+
+.videos .slick-dots {
+  bottom: -50px;
 }
 
 /* Actualités */
