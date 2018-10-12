@@ -176,7 +176,7 @@ h2 {
 
 .wrapper,
 .site-wrapper {
-  max-width: 1440px;
+  max-width: initial;
 }
 
 .header-container {
@@ -297,7 +297,7 @@ h2 {
 .site-footer .inside {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: initial;
   padding: 4.25em 0 0;
   border-top: 11px solid #565968;
   background: #1e2339;
@@ -791,8 +791,9 @@ h2 {
   margin-left: 0;
 }
 
-#zone2 .actu-container {
-  background: url('img/readyforit/bg_actualites.jpg') no-repeat 0 310px;
+#zone2 .actu-container::before {
+  height: 240px;
+  background: url('img/readyforit/bg_actualites.jpg') repeat-x left 310px;
 }
 
 #zone2 .actu-container .inside {
@@ -805,7 +806,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background: url('img/readyforit/bg_actualites.jpg') no-repeat 0 310px;
 }
 
 #zone2 .actu-container .link-read-more {
@@ -1012,7 +1012,7 @@ h2 {
 #zone2 .highlight-container {
   position: relative;
   margin-top: 0;
-  background: url('img/readyforit/bg_tempsforts.jpg') no-repeat right 61%;
+  background: url('img/readyforit/bg_tempsforts.jpg') repeat-x right 61%;
 }
 
 #zone2 .highlight-container .slider {
@@ -1179,12 +1179,4 @@ h2 {
 
 #zone4 .pg-pagin-nb {
   display: none;
-}
-
-
-.site-banner .inside,
-.wrapper,
-.site-wrapper,
-.site-footer .inside {
-  max-width: initial;
 }
