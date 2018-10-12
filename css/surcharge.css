@@ -792,6 +792,8 @@ h2 {
 }
 
 #zone2 .actu-container::before {
+  content: '';
+  display: inline-block;
   height: 240px;
   background: url('img/readyforit/bg_actualites.jpg') repeat-x left 310px;
 }
