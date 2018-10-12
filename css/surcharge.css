@@ -509,11 +509,11 @@ h2 {
   padding: 0 2rem;
 }
 
-#zone1 .la-slider .slider-pagin-btn .slider [class*="slider-btn"] {
+#zone1 .slider [class*="slider-btn"] {
   background: rgba(255, 255, 255, 0.5);
 }
 
-#zone1 .la-slider .slider-pagin-btn .slider [class*="slider-btn"] .icon {
+#zone1 .slider [class*="slider-btn"] .icon {
   color: #1e2339;
 }
 
@@ -721,11 +721,11 @@ h2 {
 }
 
 .videos .slick-prev {
-  left: 31%;
+  left: 0;
 }
 
 .videos .slick-next {
-  right: 31%;
+  right: 0;
 }
 
 /* Actualités */
