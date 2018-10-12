@@ -393,14 +393,6 @@ h2 {
   padding-top: 2rem;
   border-top: 1px solid #414555;
   text-align: center;
-
-  @media (min-width: 641px) {
-    width: 80%;
-  }
-
-  @media (min-width: 1025px) {
-    width: 80%;
-  }
 }
 
 .follow-text {
@@ -474,8 +466,15 @@ h2 {
 /***********************************/
 .site-wrapper {
   padding: 0 0 2rem;
-  background: url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
   background-color: #ffffff;
+}
+
+.front .site-wrapper {
+  background: url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+}
+
+.front #zone2 {
+  background: url('img/readyforit/bg_logo.png') no-repeat right 25px;
 }
 
 .pub-container {
@@ -989,10 +988,6 @@ h2 {
   width: 61px;
   height: 61px;
   background: url('img/readyforit/icon_temps_forts.png') no-repeat;
-}
-
-#zone2 {
-  background: url(img/readyforit/bg_logo.png) no-repeat right 25px;
 }
 
 #zone2 .highlight-container {
