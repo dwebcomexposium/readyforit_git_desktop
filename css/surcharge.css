@@ -156,7 +156,7 @@ h2 {
 }
 
 .site-banner .inside {
-  max-width: 1440px;
+  max-width: initial;
   padding: 0;
 }
 
