@@ -714,17 +714,26 @@ h2 {
   text-decoration: none;
 }
 
-.videos {
+.videos-content {
   position: absolute;
   top: 20%;
   right: -95px;
   width: 570px;
   height: 330px;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
 
-.videos .capsule-green {
+.videos-content .capsule-green {
+  position: absolute;
+  z-index: 2;
+  top: 1.2rem;
+  left: -2.2rem;
   padding: 0 2.5rem;
+}
+
+.videos {
+  width: 570px;
+  height: 330px;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
 
 .videos .slick-prev,
