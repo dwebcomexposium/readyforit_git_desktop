@@ -1101,7 +1101,7 @@ h2 {
 
 #zone2 .highlight-container .slider-pagin {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   top: calc(50% - 18px);
   right: 0;
   left: 0;
@@ -1182,12 +1182,22 @@ h2 {
   margin: 0 auto;
 }
 
+#zone4 .slider-content .pg-item-illust {
+  height: 105px;
+}
+
+#zone4 .slider-content .pg-item-illust img {
+  width: 105px;
+  max-height: 105px;
+}
+
 #zone4 .pg-item-title {
   display: none;
 }
 
 #zone4 .slider-pagin {
   position: absolute;
+  z-index: 0;
   top: 0;
   right: -33px;
   left: -33px;
