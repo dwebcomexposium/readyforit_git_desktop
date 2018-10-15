@@ -187,7 +187,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: url('img/readyforit/bg_header.jpg') no-repeat 46% 0;
+  background: #025563 url('img/readyforit/bg_header.jpg') no-repeat right top;
 }
 
 .header-logo {
