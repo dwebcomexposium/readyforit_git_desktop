@@ -1166,13 +1166,13 @@ h2 {
 }
 
 #zone4 .partner {
+  position: relative;
   max-width: 1220px;
   margin: 0 auto 4rem;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 55px 0 rgba(0, 0, 0, 0.25);
 }
 
 #zone4 .slider {
-  position: relative;
   background: #ffffff;
 }
 
@@ -1187,8 +1187,8 @@ h2 {
 #zone4 .slider-pagin {
   position: absolute;
   top: 0;
-  right: 0;
-  left: 0;
+  right: -33px;
+  left: -33px;
   border: 0;
 }
 
