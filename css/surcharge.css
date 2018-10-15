@@ -260,10 +260,10 @@ h2 {
 .is-stuck.site-banner .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .is-stuck.site-banner .header-content {
+  margin-right: 5rem;
   padding-left: 16rem;
   background: transparent;
 }
