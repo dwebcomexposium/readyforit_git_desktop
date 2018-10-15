@@ -1182,15 +1182,6 @@ h2 {
   margin: 0 auto;
 }
 
-#zone4 .slider-content .pg-item-illust {
-  height: 105px;
-}
-
-#zone4 .slider-content .pg-item-illust img {
-  width: 105px;
-  max-height: 105px;
-}
-
 #zone4 .pg-item-title {
   display: none;
 }
