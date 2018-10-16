@@ -1182,6 +1182,13 @@ h2 {
   margin: 0 auto;
 }
 
+#zone4 .slider-content .pg-item-illust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
 #zone4 .pg-item-title {
   display: none;
 }
