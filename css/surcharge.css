@@ -1250,7 +1250,7 @@ h2 {
   text-transform: initial;
 }
 
-.cl-item-phone {
+.cl-item-phone .label {
   display: none;
 }
 
