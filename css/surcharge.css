@@ -309,6 +309,36 @@ h2 {
 
 
 /***********************************/
+/* SOUS NAV */
+/***********************************/
+.quicklinks-navigation .ql-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quicklinks-navigation .ql-item {
+  min-width: 278px;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.quicklinks-navigation .ql-item-link {
+  background: #ffffff;
+  color: #1e2339;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quicklinks-navigation .ql-item-link:focus,
+.quicklinks-navigation .ql-item-link:hover,
+.quicklinks-navigation .ql-item-link.is-active {
+  padding: 1.5rem 1rem;
+  background: #f39005;
+}
+
+/***********************************/
 /* FOOTER */
 /***********************************/
 .site-footer {
