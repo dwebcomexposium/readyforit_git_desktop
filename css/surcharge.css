@@ -485,6 +485,11 @@ h2 {
   color: #b2b6ca;
 }
 
+#zone2 .inside {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
 
 /***********************************/
 /* HOME */
@@ -607,12 +612,7 @@ h2 {
 
 /* Edito */
 .front #zone2 .edito {
-  max-width: 1220px;
-  margin: 4rem auto 0;
-}
-
-.front #zone2 .edito .inside {
-  width: 42%;
+  margin-top: 4rem;
 }
 
 .front #zone2 .edito h2 {
@@ -1220,11 +1220,6 @@ h2 {
 /***********************************/
 /* HOME */
 /***********************************/
-#zone2 .inside {
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
 .cl-content {
   display: flex;
   flex-wrap: wrap;
