@@ -611,9 +611,14 @@ h2 {
 }
 
 /* Edito */
+.front #zone2 .edito {
+  max-width: 1220px;
+  margin: 3rem auto 0;
+}
+
 .front #zone2 .edito .inside {
-  max-width: 42%;
-  margin: 0 auto 0 35rem;
+  width: 42%;
+  margin: 0;
 }
 
 .front #zone2 .edito h2 {
