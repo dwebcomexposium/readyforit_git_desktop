@@ -75,6 +75,8 @@ h1 {
 }
 
 h1::before {
+  content: '';
+  display: inline-block;
   width: 78px;
   height: 69px;
   background: url(img/readyforit/icon_speack.png) no-repeat;
