@@ -646,7 +646,7 @@ a {
   color: #b2b6ca;
 }
 
-#zone2 .inside > {
+#zone2 > * {
   max-width: 1220px;
   margin: 0 auto;
 }
@@ -1429,6 +1429,10 @@ h1::before {
 /***********************************/
 /* PAGE CONTENU */
 /***********************************/
+.article-title {
+  position: initial;
+}
+
 .cl-content {
   display: flex;
   flex-wrap: wrap;
