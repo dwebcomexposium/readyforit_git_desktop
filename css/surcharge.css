@@ -1430,8 +1430,12 @@ h1::before {
 /***********************************/
 /* PAGE CONTENU */
 /***********************************/
-.article-wrapper {
+#zone2 .article-wrapper {
   max-width: inherit;
+}
+
+#zone2 .article-wrapper > *:not(.article-title) {
+  max-width: 1220px;
 }
 
 .article-title {
