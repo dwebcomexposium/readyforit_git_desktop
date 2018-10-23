@@ -667,7 +667,7 @@ a {
 h1 {
   display: flex;
   position: absolute;
-  top: 65rem;
+  top: 6.5rem;
   right: 0;
   left: 0;
   flex-direction: column;
