@@ -648,7 +648,8 @@ a {
 
 #zone2 > * {
   max-width: 1220px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -1429,8 +1430,27 @@ h1::before {
 /***********************************/
 /* PAGE CONTENU */
 /***********************************/
+.article-wrapper {
+  max-width: inherit;
+}
+
 .article-title {
   position: initial;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  background: #1e2339;
+}
+
+.article-title img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.at-publication {
+  display: none;
 }
 
 .cl-content {
