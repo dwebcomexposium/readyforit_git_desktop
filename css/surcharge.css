@@ -1432,11 +1432,14 @@ h1::before {
 /***********************************/
 /* PAGE CONTENU */
 /***********************************/
-#zone2 .article-wrapper {
+#zone2 .article-wrapper,
+#zone2 .contacts-list {
   max-width: inherit;
 }
 
-#zone2 .article-wrapper > *:not(.article-title) {
+#zone2 .article-wrapper > *:not(.article-title),
+#zone2 .contacts-list > *:not(h1),
+#zone2 .contacts-list > *:not(.intro) {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
