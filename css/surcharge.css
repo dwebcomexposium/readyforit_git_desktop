@@ -683,6 +683,15 @@ a {
   background: #1e2339;
 }
 
+#zone1 .intro {
+  position: absolute;
+  top: 230px;
+  left: calc(50% - 25rem);
+  width: 50rem;
+  color: #ffffff;
+  text-align: center;
+}
+
 
 /***********************************/
 /* HOME */
