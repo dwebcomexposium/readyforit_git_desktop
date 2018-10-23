@@ -52,34 +52,15 @@ body {
 }
 
 /* Title */
-h2, h3, h4 {
+h1, h2, h3, h4 {
   color: #1e2339;
 }
 
 h1 {
   margin-bottom: 0;
   border: 0;
-  color: #ffffff;
   font-size: 5.4rem;
   font-weight: 500;
-}
-
-h1 {
-  display: flex;
-  position: absolute;
-  top: 140px;
-  right: 0;
-  left: 0;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1::before {
-  content: '';
-  display: inline-block;
-  width: 78px;
-  height: 69px;
-  background: url(img/readyforit/icon_speack.png) no-repeat;
 }
 
 h2 {
@@ -665,7 +646,7 @@ a {
   color: #b2b6ca;
 }
 
-#zone2 .inside {
+#zone2 .inside > {
   max-width: 1220px;
   margin: 0 auto;
 }
@@ -683,9 +664,29 @@ a {
   background: #1e2339;
 }
 
-#zone1 .intro {
+h1 {
+  display: flex;
   position: absolute;
-  top: 230px;
+  top: 65rem;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h1::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+.intro {
+  position: absolute;
+  top: 22rem;
   left: calc(50% - 25rem);
   width: 50rem;
   color: #ffffff;
@@ -773,6 +774,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.5;
 }
 
 #zone1 .la-slider .la-item-content {
