@@ -56,16 +56,136 @@ h1, h2, h3, h4 {
   color: #1e2339;
 }
 
+h1 {
+  margin-bottom: 0;
+  border: 0;
+  font-size: 6.8rem;
+  font-weight: 700;
+}
+
 h2 {
   margin-bottom: 0;
   border: 0;
-  font-size: 5.25rem;
+  font-size: 5.4rem;
   font-weight: 500;
 }
 
 .front h2 {
-  font-size: 6.25rem;
+  font-size: 6.8rem;
   font-weight: 700;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 3.2rem;
+  font-weight: normal;
+}
+
+/* Paragraphe */
+p {
+  font-size: 1.6rem;
+}
+
+p strong {
+  font-weight: 500;
+}
+
+p.style1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+p.style2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+p.style3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Liens */
+a {
+  color: #1e2339;
+  text-decoration: none;
+}
+
+.externe {
+  font-size: 1.4rem;
+}
+
+.externe.lien1 {
+  font-size: 1.8rem;
+}
+
+.externe.lien2,
+.externe.lien3,
+.externe.lien4 {
+  padding-left: 0.8rem;
+  border-left: 5px solid;
+}
+
+.externe.lien2 {
+  border-color: #ff3100;
+  font-size: 1.4rem;
+}
+
+.externe.lien3 {
+  border-color: #00c485;
+  font-size: 1.8rem;
+}
+
+.externe.lien4 {
+  border-color: #00e2ff;
+  font-size: 1.8rem;
+}
+
+/* Button */
+.cta-1,
+.focus1 a,
+.cta-2,
+.focus2 a,
+.cta-3 {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cta-1,
+.focus1 a {
+  background: #ff3100;
+  color: #ffffff;
+}
+
+.cta-1:hover,
+.focus1 a:hover {
+  background: #ffffff;
+  color: #ff3100;
+}
+
+.cta-2,
+.focus2 a {
+  background: #ffffff;
+  color: #ff3100;
+}
+
+.cta-2:hover,
+.focus2 a:hover {
+  background: #ff3100;
+  color: #ffffff;
+}
+
+.cta-3 {
+  background: #ffffff;
+  color: #00c485;
+}
+
+.cta-3:hover {
+  background: #00c485;
+  color: #ffffff;
 }
 
 
@@ -93,46 +213,7 @@ h2 {
   line-height: 1.4;
 }
 
-/* Button */
-.cta-1,
-.cta-2,
-.cta-3 {
-  display: inline-block;
-  padding: 1rem 2rem;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-}
 
-.cta-1 {
-  background: #ff3100;
-  color: #ffffff;
-}
-
-.cta-1:hover {
-  background: #ffffff;
-  color: #ff3100;
-}
-
-.cta-2 {
-  background: #ffffff;
-  color: #ff3100;
-}
-
-.cta-2:hover {
-  background: #ff3100;
-  color: #ffffff;
-}
-
-.cta-3 {
-  background: #ffffff;
-  color: #00c485;
-}
-
-.cta-3:hover {
-  background: #00c485;
-  color: #ffffff;
-}
 
 /* Arrow */
 .arrow-right {
@@ -184,7 +265,7 @@ h2 {
 .site-banner .inside .quicklinks {
   display: flex;
   justify-content: flex-end;
-  padding-right: 15rem;
+  padding-right: 21rem;
   background: #1e2339;
 }
 
@@ -193,6 +274,11 @@ h2 {
   border: 0;
   background: #565968;
   font-size: 1.4rem;
+}
+
+.lang-switcher {
+  right: 15rem;
+  padding: 0.38rem 0;
 }
 
 .wrapper,
@@ -303,7 +389,8 @@ h2 {
   background: url('img/readyforit/logo-stiky.png') no-repeat;
 }
 
-.is-stuck .mn-item-lvl-1:first-child {
+.is-stuck .mn-item-lvl-1:first-child,
+.is-stuck .lang-switcher {
   display: block;
 }
 
