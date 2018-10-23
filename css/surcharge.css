@@ -1436,6 +1436,8 @@ h1::before {
 
 #zone2 .article-wrapper > *:not(.article-title) {
   max-width: 1220px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .article-title {
