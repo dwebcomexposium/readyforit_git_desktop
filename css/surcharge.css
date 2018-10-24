@@ -1590,6 +1590,7 @@ h1::before {
 
 .cl-item-phone .label {
   display: none;
+  color: #ffffff;
 }
 
 .cl-item-phone:last-child .label {
@@ -1599,14 +1600,19 @@ h1::before {
 .cl-item-phone:last-child .label::before {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 0.5rem;
   width: 33px;
   height: 30px;
   background: #ffffff url('img/readyforit/icon_phone.png') no-repeat;
 }
 
+.cl-item-phone span:last-child {
+  padding-left: 3.3rem;
+}
+
 .cl-item-phone:last-child span:last-child {
   position: absolute;
   left: 3.3rem;
+  padding-left: 0;
   background: #ffffff;
 }
