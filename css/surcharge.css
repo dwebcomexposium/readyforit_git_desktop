@@ -710,6 +710,10 @@ h1::before {
 }
 
 /* Slider */
+.front #zone1 {
+  position: initial;
+}
+
 #zone1 .slider {
   position: relative;
 }
@@ -908,11 +912,11 @@ h1::before {
 }
 
 .article-content blockquote {
+  width: 780px;
   background: #ff7600;
 }
 
 .article-content blockquote p {
-  width: 780px;
   padding-left: 0;
   border-left: 0;
   font-size: 3rem;
