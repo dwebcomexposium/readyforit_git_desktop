@@ -51,6 +51,18 @@ body {
   display: none;
 }
 
+.article-content figure {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+
+.article-content hr {
+  margin: 0.5rem 0;
+  background: transparent;
+}
+
+
 /* Title */
 h1, h2, h3, h4 {
   color: #1e2339;
@@ -218,6 +230,10 @@ a {
 
 .important1 {
   color: #ff3100;
+}
+
+.important1 {
+  color: #f39005;
 }
 
 .capsule-green {
