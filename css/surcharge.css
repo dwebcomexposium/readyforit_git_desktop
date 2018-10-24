@@ -1556,12 +1556,15 @@ h1::before {
 .cl-item-email .label::before {
   content: '';
   position: absolute;
-  background: url('img/readyforit/icon_msg.png') no-repeat;
+  width: 33px;
+  height: 28px;
+  background: #ffffff url('img/readyforit/icon_msg.png') no-repeat left center;
 }
 
 .cl-item-email .label::after {
   content: 'Envoyer un email';
   position: absolute;
+  left: 33px;
   background: #ffffff;
 }
 
@@ -1569,7 +1572,7 @@ h1::before {
   display: inline-block;
   position: absolute;
   left: 0;
-  width: 60%;
+  width: 70%;
   overflow: hidden;
   opacity: 0;
 }
