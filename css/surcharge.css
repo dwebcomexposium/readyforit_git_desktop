@@ -1699,6 +1699,11 @@ h1::before {
   margin-bottom: 4rem;
 }
 
+.place-content img {
+  width: 100%;
+  max-width: 898px;
+}
+
 .info-content {
   position: absolute;
   top: 40px;
