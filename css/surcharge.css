@@ -1853,6 +1853,10 @@ body.faq {
   color: #ffffff;
 }
 
+.faq-content .fc-item-content.is-open {
+  padding: 1.5rem 8.8rem 1.5rem 2.8rem;
+}
+
 .faq-content .fc-item-link.is-active .icon,
 .faq-content .fc-item-link.is-active:hover .icon,
 .faq-content .fc-item-link.is-active:focus .icon,
