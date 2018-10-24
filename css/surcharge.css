@@ -1520,9 +1520,7 @@ h1::before {
 }
 
 .cl-item-content {
-  display: flex;
   position: relative;
-  flex-wrap: wrap;
   height: 186px;
   padding: 1.5rem 2rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
@@ -1540,10 +1538,6 @@ h1::before {
   font-weight: 500;
 }
 
-.cl-item-content p {
-  margin-top: 0;
-}
-
 .cl-item-subtitle {
   color: #7b7c7f;
   font-size: 1.4rem;
@@ -1557,7 +1551,10 @@ h1::before {
 }
 
 .cl-item-email {
-  order: 3;
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
+  left: 2rem;
 }
 
 .cl-item-email .label::before {
@@ -1582,6 +1579,17 @@ h1::before {
   width: 70%;
   overflow: hidden;
   opacity: 0;
+}
+
+.cl-item-phone {
+  position: absolute;
+  right: 2rem;
+  bottom: 4rem;
+  left: 2rem;
+}
+
+.cl-item-phone:last-child {
+  bottom: 8rem;
 }
 
 .cl-item-phone .label::before {
