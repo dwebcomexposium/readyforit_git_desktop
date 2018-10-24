@@ -1520,18 +1520,28 @@ h1::before {
 }
 
 .cl-item-content {
+  display: flex;
   position: relative;
+  flex-wrap: wrap;
   height: 186px;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
   color: #ff7600;
   font-weight: 500;
+}
+
+.cl-item-content > * {
+  flex: 0 0 100%;
 }
 
 .cl-item-title {
   margin-bottom: 0.5rem;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.cl-item-content p {
+  margin-top: 0;
 }
 
 .cl-item-subtitle {
@@ -1547,10 +1557,7 @@ h1::before {
 }
 
 .cl-item-email {
-  position: absolute;
-  right: 2rem;
-  bottom: 1.5rem;
-  left: 2rem;
+  order: 3;
 }
 
 .cl-item-email .label::before {
@@ -1564,7 +1571,7 @@ h1::before {
 .cl-item-email .label::after {
   content: 'Envoyer un email';
   position: absolute;
-  left: 33px;
+  left: 5.3rem;
   background: #ffffff;
 }
 
@@ -1575,4 +1582,12 @@ h1::before {
   width: 70%;
   overflow: hidden;
   opacity: 0;
+}
+
+.cl-item-phone .label::before {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 28px;
+  background: #ffffff url('img/readyforit/icon_phone.png') no-repeat left center;
 }
