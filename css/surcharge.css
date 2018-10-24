@@ -1805,6 +1805,7 @@ body.faq {
 
 .faq-content .fc-item,
 .faq-content .fc-item:nth-child(odd) {
+  position: relative;
   margin-bottom: 2rem;
   padding: 0;
   border-bottom: 0;
@@ -1847,7 +1848,6 @@ body.faq {
 
 .faq-content .fc-item-link.is-active,
 .faq-content .fc-item-content.is-open {
-  position: relative;
   background: #1e2339;
   box-shadow: none;
   color: #ffffff;
@@ -1857,8 +1857,20 @@ body.faq {
 .faq-content .fc-item-link.is-active:hover .icon,
 .faq-content .fc-item-link.is-active:focus .icon,
 .faq-content .fc-item-link.is-active:active .icon {
+  position: absolute;
+  top: calc(50% - 17px);
+  right: 23px;
   width: 35px;
   height: 35px;
   background: #ffffff;
+  color: #1e2339;
+  text-align: center;
+}
+
+.faq-content .fc-item-link.is-active .icon::before,
+.faq-content .fc-item-link.is-active:hover .icon::before,
+.faq-content .fc-item-link.is-active:focus .icon::before,
+.faq-content .fc-item-link.is-active:active .icon::before {
+  content: "-";
   color: #1e2339;
 }
