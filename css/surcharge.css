@@ -685,7 +685,13 @@ a {
   height: 420px;
 }
 
-h1 {
+.node646261 #zone1 {
+  position: initial;
+  background: #1e2339;
+}
+
+h1,
+.faq-main-title {
   display: flex;
   position: absolute;
   top: 6.5rem;
@@ -693,6 +699,7 @@ h1 {
   left: 0;
   flex-direction: column;
   align-items: center;
+  border: 0;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -1785,4 +1792,29 @@ h1::before {
 .node646260 #zone2 .article-content a:hover {
   background: #ffffff;
   color: #6dd700;
+}
+
+/* FAQ */
+.faq-content h2 {
+  display: none;
+}
+
+.faq-content .fc-item,
+.faq-content .fc-item:nth-child(odd) {
+  border-bottom: 0;
+  background: #ffffff;
+  box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.25);
+}
+
+.faq-content .fc-item-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-content .fc-item-link .icon {
+  order: 2;
+}
+
+.faq-content .fc-item-link .icon::before {
+  font-family: 'Barlow', sans-serif;
 }
