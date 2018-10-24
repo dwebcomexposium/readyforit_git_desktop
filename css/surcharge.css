@@ -1568,7 +1568,7 @@ h1::before {
 .cl-item-email .label::after {
   content: 'Envoyer un email';
   position: absolute;
-  left: 5.3rem;
+  left: 3.3rem;
   background: #ffffff;
 }
 
