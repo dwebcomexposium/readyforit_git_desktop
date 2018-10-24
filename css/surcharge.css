@@ -1630,7 +1630,7 @@ h1::before {
 }
 
 .social-sharing {
-  border:;0
+  border: 0;
 }
 
 .social-sharing .sr-title {
@@ -1674,5 +1674,5 @@ h1::before {
 }
 
 .social-sharing .icon::before {
-  color: #00e2ff;
+  color: #ffffff;
 }
