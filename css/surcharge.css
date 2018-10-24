@@ -1755,5 +1755,29 @@ h1::before {
 
 /* Contact */
 .node646260 #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right bottom;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 245px;
+}
+
+.node646260 #zone2 .article-intro > *,
+.node646260 #zone2 .article-content > * {
+  width: 42%;
+}
+
+.node646260 #zone2 .article-content a {
+  display: inline-block;
+  width: 27.9rem;
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+  background: #6dd700;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.node646260 #zone2 .article-content a:hover {
+  background: #ffffff;
+  color: #6dd700;
 }
