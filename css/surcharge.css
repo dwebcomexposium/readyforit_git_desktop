@@ -1589,7 +1589,7 @@ h1::before {
 }
 
 .cl-item-phone:last-child {
-  bottom: 8rem;
+  bottom: 6rem;
 }
 
 .cl-item-phone .label::before {
