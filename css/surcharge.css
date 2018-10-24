@@ -1471,7 +1471,7 @@ h1::before {
 
 
 /***********************************/
-/* PAGE CONTENU */
+/* All in one */
 /***********************************/
 #zone2 .article-wrapper,
 #zone2 .contacts-list {
@@ -1627,4 +1627,52 @@ h1::before {
   left: 3.3rem;
   padding-left: 0;
   background: #ffffff;
+}
+
+.social-sharing {
+  border:;0
+}
+
+.social-sharing .sr-title {
+  display: inline-block;
+  padding-right: 0.6rem;
+  padding-left: 0.8rem;
+  border-left: 5px solid #00e2ff;
+  font-size: 1.8rem;
+}
+
+.social-sharing .sr-list {
+  display: inline-block;
+}
+
+.social-sharing .sr-item {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.social-sharing .sr-item .btn-large {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.social-sharing .sr-item-txt {
+  display: none;
+}
+
+.social-sharing .icon {
+  width: 40px;
+  height: 40px;
+  background: #00e2ff;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-sharing .icon::before {
+  color: #00e2ff;
 }
