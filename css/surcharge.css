@@ -1751,3 +1751,9 @@ h1::before {
   margin-right: 1.5rem;
   background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
+
+
+/* Contact */
+.node646260 #zone2 {
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right bottom;
+}
