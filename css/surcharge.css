@@ -1711,6 +1711,8 @@ h1::before {
 
 .info-content .phone-item,
 .info-content .web-item {
+  display: flex;
+  align-items: center;
   margin-top: 1rem;
 }
 
@@ -1722,18 +1724,18 @@ h1::before {
 
 .icon-phone {
   content: '';
-  position: absolute;
-  bottom: 0.7rem;
+  display: inline-block;
   width: 19px;
   height: 32px;
+  margin-right: 1.5rem;
   background: #ffffff url('img/readyforit/icon_phone.png') no-repeat;
 }
 
 .icon-web {
   content: '';
-  position: absolute;
-  bottom: 0.7rem;
+  display: inline-block;
   width: 19px;
   height: 19px;
+  margin-right: 1.5rem;
   background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
