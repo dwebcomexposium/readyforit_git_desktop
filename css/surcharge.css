@@ -1717,6 +1717,23 @@ h1::before {
 .info-content .phone-item,
 .info-content .web-item a {
   color: #ff7600;
-  font-size: 1.8rem;
   font-weight: 500;
+}
+
+.icon-phone {
+  content: '';
+  position: absolute;
+  bottom: 0.7rem;
+  width: 19px;
+  height: 32px;
+  background: #ffffff url('img/readyforit/icon_phone.png') no-repeat;
+}
+
+.icon-web {
+  content: '';
+  position: absolute;
+  bottom: 0.7rem;
+  width: 19px;
+  height: 19px;
+  background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
