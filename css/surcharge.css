@@ -1584,15 +1584,15 @@ h1::before {
 .cl-item-phone {
   position: absolute;
   right: 2rem;
-  bottom: 4rem;
+  bottom: 6rem;
   left: 2rem;
 }
 
 .cl-item-phone:last-child {
-  bottom: 6rem;
+  bottom: 4rem;
 }
 
-.cl-item-phone .label::before {
+.cl-item-phone:last-child .label::before {
   content: '';
   position: absolute;
   width: 33px;
