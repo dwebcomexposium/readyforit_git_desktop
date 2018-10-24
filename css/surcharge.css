@@ -1795,7 +1795,7 @@ h1::before {
 }
 
 /* FAQ */
-body.faq {
+body.faq #zone2 {
   background: #fcfcfc;
 }
 
