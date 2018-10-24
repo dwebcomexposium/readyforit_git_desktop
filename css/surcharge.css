@@ -1795,12 +1795,17 @@ h1::before {
 }
 
 /* FAQ */
+body.faq {
+  background: #fcfcfc;
+}
+
 .faq-content h2 {
   display: none;
 }
 
 .faq-content .fc-item,
 .faq-content .fc-item:nth-child(odd) {
+  margin-bottom: 2rem;
   border-bottom: 0;
   background: #ffffff;
   box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.25);
@@ -1809,12 +1814,30 @@ h1::before {
 .faq-content .fc-item-link {
   display: flex;
   justify-content: space-between;
+  font-weight: 500;
+}
+
+.faq-content .fc-item-link:hover,
+.faq-content .fc-item-link:focus,
+.faq-content .fc-item-link:active {
+  color: #ff3100;
+  text-decoration: none;
 }
 
 .faq-content .fc-item-link .icon {
   order: 2;
+  color: #1e2339;
 }
 
 .faq-content .fc-item-link .icon::before {
+  content: "+";
   font-family: 'Barlow', sans-serif;
+  font-size: 3rem;
+}
+
+.faq-content .fc-item-link:hover .icon::before,
+.faq-content .fc-item-link:focus .icon::before,
+.faq-content .fc-item-link:active .icon::before {
+  content: "-";
+  color: #ff3100;
 }
