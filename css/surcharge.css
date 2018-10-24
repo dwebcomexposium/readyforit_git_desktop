@@ -466,6 +466,7 @@ a {
 }
 
 .quicklinks-navigation .ql-item-link {
+  padding: 0.8rem 1.8rem;
   background: #ffffff;
   color: #1e2339;
   font-size: 1.8rem;
@@ -476,7 +477,7 @@ a {
 .quicklinks-navigation .ql-item-link:focus,
 .quicklinks-navigation .ql-item-link:hover,
 .quicklinks-navigation .ql-item-link.is-active {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1.8rem;
   background: #f39005;
 }
 
@@ -1663,10 +1664,10 @@ h1::before {
 }
 
 .social-sharing .sr-item .btn-large {
-  font-size: 2rem;
   margin: 0;
   padding: 0;
   border: 0;
+  font-size: 2rem;
 }
 
 .social-sharing .sr-item-txt {
@@ -1674,15 +1675,48 @@ h1::before {
 }
 
 .social-sharing .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
-  background: #00e2ff;
   border-radius: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: #00e2ff;
 }
 
 .social-sharing .icon::before {
   color: #ffffff;
+}
+
+.place-content {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.info-content {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  width: 363px;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+.info-content .adresse {
+  margin-top: 0.5rem;
+  color: #7b7c7f;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.info-content .phone-item,
+.info-content .web-item {
+  margin-top: 1rem;
+}
+
+.info-content .phone-item,
+.info-content .web-item a {
+  color: #ff7600;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
