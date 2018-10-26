@@ -704,12 +704,59 @@ h1,
   text-transform: uppercase;
 }
 
-h1::before {
+/* A propos */
+.parent601409 h1::before {
   content: '';
   display: inline-block;
   width: 78px;
   height: 69px;
   background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+/* Programme */
+.parent601410 h1::before, {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+/* Partenaires medias */
+.parent601411 h1::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+/* Participation */
+.parent601412 h1::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+/* Infos pratiques */
+.parent601415 h1::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_speack.png) no-repeat;
+}
+
+/* Blog/Press */
+.parent601413 h1::before,
+.parent601399 h1::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 69px;
+  background: url(img/readyforit/icon_blog.png) no-repeat;
 }
 
 .intro {
@@ -1882,4 +1929,11 @@ body.faq #zone2 {
 .faq-content .fc-item-link.is-active:active .icon::before {
   content: "-";
   color: #1e2339;
+}
+
+.error404 h1 {
+  display: block;
+  position: initial;
+  color: initial;
+  text-transform: initial;
 }
