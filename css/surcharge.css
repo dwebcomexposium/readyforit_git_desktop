@@ -235,6 +235,7 @@ a {
 
 /* Fil d'Ariane */
 .breadcrumb-nav {
+  z-index: 50;
   width: 100%;
   padding: 1.5rem 11rem;
 }
@@ -413,6 +414,7 @@ a {
 
 /* Stiky header */
 .is-stuck.site-banner {
+  z-index: 100;
   padding: 0;
 }
 
@@ -451,6 +453,7 @@ a {
 /* SOUS NAV */
 /***********************************/
 .quicklinks-navigation {
+  z-index: 50;
   width: 100%;
 }
 
@@ -1516,7 +1519,6 @@ h1::before {
   width: 100%;
   height: 420px;
   overflow: hidden;
-  background: #1e2339;
 }
 
 .article-title img {
