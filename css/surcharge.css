@@ -235,7 +235,7 @@ a {
 
 /* Fil d'Ariane */
 .breadcrumb-nav {
-  z-index: 50;
+  z-index: 1;
   width: 100%;
   padding: 1.5rem 11rem;
 }
@@ -453,7 +453,7 @@ a {
 /* SOUS NAV */
 /***********************************/
 .quicklinks-navigation {
-  z-index: 50;
+  z-index: 1;
   width: 100%;
 }
 
