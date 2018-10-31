@@ -41,7 +41,7 @@ body {
 }
 
 .layout-2-col {
-  padding-top: 10rem;
+  padding: 10rem 0;
 }
 
 .front .layout-2-col {
@@ -1812,7 +1812,7 @@ h1,
 
 /* Contact */
 .node646260 .layout-2-col {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right top;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right -170px;
 }
 
 .node646260 #zone2 .article-intro > *,
