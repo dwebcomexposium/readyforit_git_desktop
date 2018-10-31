@@ -738,7 +738,7 @@ h1,
 }
 
 /* Programme */
-.parent601410 h1::before, {
+.parent601410 h1::before {
   content: '';
   display: inline-block;
   width: 62px;
