@@ -1827,6 +1827,14 @@ h1,
   position: relative;
 }
 
+.gla-item {
+  width: 100%;
+  box-shadow: none;
+}
+
+.gla-item-content {
+
+}
 
 /* Contact */
 .node646260 .layout-2-col {
@@ -1949,4 +1957,85 @@ body.faq .layout-2-col {
   position: initial;
   color: initial;
   text-transform: initial;
+}
+
+/* Aller à Monaco */
+.node646244 #zone1 {
+  position: relative;
+}
+
+.node646244 .main-title-with-link {
+  display: none;
+}
+
+.node646244 .grid-la-list {
+  display: flex;
+}
+
+.node646244 .gla-item-content {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 17rem 0 6rem;
+}
+
+.node646244 .gla-item {
+  padding: 6px;
+  box-shadow: none;
+}
+
+.node646244 .gla-item > a {
+  background: transparent url('img/readyforit/bg_transport.png') no-repeat center top / cover;
+}
+
+.node646244 .gla-item .gla-item-content .gla-item-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.node646244 .gla-item .gla-item-content .gla-item-btn {
+  display: none;
+}
+
+.node646244 .gla-item:nth-child(1n) .gla-item-content {
+  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_plane.png') no-repeat center 6rem;
+}
+
+.node646244 .gla-item:nth-child(2n) .gla-item-content {
+  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_bus.png') no-repeat center 6rem;
+}
+
+.node646244 .gla-item:nth-child(3n) .gla-item-content {
+  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_car.png') no-repeat center 6rem;
+}
+
+.node646244 .gla-item:nth-child(4n) .gla-item-content {
+  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_helico.png') no-repeat center 6rem;
+}
+
+.node646244 .gla-item .gla-item-content::after {
+  content: "+";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: -16px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.22);
+  font-size: 3.5rem;
+  line-height: 25px;
+}
+
+.node646244 .gla-item .gla-item-content:hover {
+  background-color: rgba(243, 144, 5, 0.8);
+}
+
+.node646244 .gla-item .gla-item-content:hover::after {
+  bottom: -16px;
+  color: #2b2f2f;
 }
