@@ -40,6 +40,14 @@ body {
   background-color: #ffffff;
 }
 
+.layout-2-col {
+  padding-top: 10rem;
+}
+
+.front .layout-2-col {
+  padding-top: 0;
+}
+
 .pub-container {
   width: 970px;
   margin: 1rem auto;
@@ -1803,8 +1811,8 @@ h1,
 
 
 /* Contact */
-.node646260 #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 245px;
+.node646260 .layout-2-col {
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right top;
 }
 
 .node646260 #zone2 .article-intro > *,
