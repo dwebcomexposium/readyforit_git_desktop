@@ -96,6 +96,11 @@ h3 {
   font-weight: normal;
 }
 
+.cl-content + h2,
+.cl-content + h3 {
+  margin-top: 3rem;
+}
+
 h4 {
   font-size: 3.5rem;
   font-weight: 500;
