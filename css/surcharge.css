@@ -715,6 +715,7 @@ a {
 /***********************************/
 #zone1 {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   align-content: space-between;
   align-items: flex-end;
@@ -729,11 +730,6 @@ div#zone1::before {
   height: 100%;
   opacity: 0.5;
   background: #1e2339;
-}
-
-.front div#zone1::before {
-  width: auto;
-  height: auto;
 }
 
 h1,
