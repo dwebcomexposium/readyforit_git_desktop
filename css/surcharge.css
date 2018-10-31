@@ -734,7 +734,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url('img/readyforit/icon_speack.png') no-repeat;
+  background: url('img/readyforit/icon_about.svg') no-repeat;
 }
 
 /* Programme */
@@ -743,7 +743,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url('img/readyforit/icon_speack.png') no-repeat;
+  background: url('img/readyforit/icon_program.svg') no-repeat;
 }
 
 /* Partenaires medias */
@@ -752,7 +752,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url('img/readyforit/icon_speack.png') no-repeat;
+  background: url('img/readyforit/icon_partner.svg') no-repeat;
 }
 
 /* Participation */
@@ -761,7 +761,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url('img/readyforit/icon_speack.png') no-repeat;
+  background: url('img/readyforit/icon_participation.svg') no-repeat;
 }
 
 /* Infos pratiques */
@@ -770,7 +770,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url('img/readyforit/icon_speack.png') no-repeat;
+  background: url('img/readyforit/icon_info.svg') no-repeat;
 }
 
 /* Blog/Press */
@@ -780,7 +780,7 @@ h1,
   display: inline-block;
   width: 78px;
   height: 69px;
-  background: url(img/readyforit/icon_blog.png) no-repeat;
+  background: url('img/readyforit/icon_blog.svg') no-repeat;
 }
 
 .intro {
