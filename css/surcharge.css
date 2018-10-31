@@ -732,8 +732,8 @@ h1,
 .parent601409 h1::before {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 62px;
+  height: 63px;
   background: url('img/readyforit/icon_about.svg') no-repeat;
 }
 
@@ -741,8 +741,8 @@ h1,
 .parent601410 h1::before, {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 62px;
+  height: 62px;
   background: url('img/readyforit/icon_program.svg') no-repeat;
 }
 
@@ -750,8 +750,8 @@ h1,
 .parent601411 h1::before {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 62px;
+  height: 62px;
   background: url('img/readyforit/icon_partner.svg') no-repeat;
 }
 
@@ -759,8 +759,8 @@ h1,
 .parent601412 h1::before {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 72px;
+  height: 39px;
   background: url('img/readyforit/icon_participation.svg') no-repeat;
 }
 
@@ -768,8 +768,8 @@ h1,
 .parent601415 h1::before {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 62px;
+  height: 62px;
   background: url('img/readyforit/icon_info.svg') no-repeat;
 }
 
@@ -778,8 +778,8 @@ h1,
 .parent601399 h1::before {
   content: '';
   display: inline-block;
-  width: 78px;
-  height: 69px;
+  width: 62px;
+  height: 62px;
   background: url('img/readyforit/icon_blog.svg') no-repeat;
 }
 
