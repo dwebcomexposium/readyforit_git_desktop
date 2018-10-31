@@ -730,6 +730,11 @@ div#zone1::before {
   background: #1e2339;
 }
 
+.front div#zone1::before {
+  width: auto;
+  height: auto;
+}
+
 h1,
 .faq-main-title,
 .main-title-with-link > .main-title {
@@ -1845,7 +1850,7 @@ h1,
 }
 
 /* FAQ */
-body.faq #zone2 {
+body.faq .layout-2-col {
   background: #fcfcfc;
 }
 
