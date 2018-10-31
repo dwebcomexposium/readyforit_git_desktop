@@ -69,6 +69,7 @@ body {
 /* Title */
 h1, h2, h3, h4 {
   color: #1e2339;
+  line-height: 1.2;
 }
 
 h1 {
@@ -761,6 +762,9 @@ h1,
   text-align: center;
 }
 
+.main-title-with-link {
+  border: 0;
+}
 
 /***********************************/
 /* HOME */
@@ -1817,6 +1821,14 @@ h1,
   height: 19px;
   margin-right: 1.5rem;
   background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
+}
+
+.grid-la-list {
+  display: block;
+}
+
+.gla-item-content {
+  position: relative;
 }
 
 
