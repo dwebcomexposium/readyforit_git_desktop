@@ -2,6 +2,48 @@
 /* CSS Document - Surcharge css Agence */
 
 /***********************************/
+/* Background heading */
+/***********************************/
+
+/* A propos */
+.parent601409 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_about.jpg') no-repeat;
+}
+
+/* Programme */
+.parent601410 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_program.jpg') no-repeat;
+}
+
+/* Partenaires medias */
+.parent601411 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_partner.jpg') no-repeat;
+}
+
+/* Participation */
+.parent601412 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_participation.jpg') no-repeat;
+}
+
+/* Infos pratiques */
+.parent601415 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_info.jpg') no-repeat;
+}
+
+/* Blog/Press */
+.parent601413 #zone1::before,
+.parent601399 #zone1::before {
+  opacity: 0.5;
+  background: url('img/readyforit/bg_blog.jpg') no-repeat;
+}
+
+
+/***********************************/
 /* Picots heading */
 /***********************************/
 
@@ -59,7 +101,3 @@
   height: 62px;
   background: url('img/readyforit/icon_blog.svg') no-repeat;
 }
-
-/***********************************/
-/* Background heading */
-/***********************************/
