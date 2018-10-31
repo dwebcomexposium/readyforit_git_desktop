@@ -717,13 +717,9 @@ div#zone1::before {
   background: #1e2339;
 }
 
-.node646261 #zone1 {
-  position: initial;
-  background: #1e2339;
-}
-
 h1,
-.faq-main-title {
+.faq-main-title,
+.main-title-with-link > .main-title {
   display: flex;
   position: absolute;
   top: 6.5rem;
@@ -733,6 +729,8 @@ h1,
   align-items: center;
   border: 0;
   color: #ffffff;
+  font-size: 5.4rem;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
