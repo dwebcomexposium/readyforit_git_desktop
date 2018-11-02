@@ -1309,6 +1309,7 @@ h1::before {
   position: relative;
   width: 86%;
   max-width: 1220px;
+  min-height: 430px;
   margin: 3rem auto 9rem;
   padding: 3.7rem 5rem;
   background: url(img/readyforit/bg_2.jpg) no-repeat 0 0 / cover;
@@ -1317,6 +1318,7 @@ h1::before {
 }
 
 .program-container h2 {
+  margin-top: 3.8rem;
   color: #ffffff;
   font-size: 5.25rem;
   font-weight: 500;
@@ -1606,6 +1608,11 @@ h1::before {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.front #zone2 .partner-list,
+.front #zone2 .list-articles {
+  max-width: auto;
 }
 
 .article-title {
