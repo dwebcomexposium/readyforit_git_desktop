@@ -1569,7 +1569,10 @@ h1::before {
 
 #zone2 .article-wrapper > *:not(.article-title),
 #zone2 .contacts-list > *:not(h1),
-#zone2 .contacts-list > *:not(.intro) {
+#zone2 .contacts-list > *:not(.intro),
+#zone2 .partner-list,
+#zone2 .faq,
+#zone2 .partner-list {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
