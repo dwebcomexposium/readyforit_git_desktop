@@ -1612,7 +1612,7 @@ h1::before {
 
 .front #zone2 .partner-list,
 .front #zone2 .list-articles {
-  max-width: auto;
+  max-width: inherit;
 }
 
 .article-title {
