@@ -749,11 +749,13 @@ h1,
   text-transform: uppercase;
 }
 
-.intro {
+.intro,
+.article-intro {
   position: absolute;
   top: 22rem;
   left: calc(50% - 25rem);
   width: 50rem;
+  margin: 0;
   color: #ffffff;
   text-align: center;
 }
@@ -1888,7 +1890,6 @@ h1,
   background: transparent url('img/readyforit/bg_logo.png') no-repeat right -170px;
 }
 
-.node646260 #zone2 .article-intro > *,
 .node646260 #zone2 .article-content > * {
   width: 42%;
 }
