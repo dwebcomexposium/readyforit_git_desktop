@@ -1867,12 +1867,17 @@ h1,
   color: #1e2339;
 }
 
-.gla-item-btn {
+.gla-item-content .gla-item-btn {
   order: 3;
   margin-top: 2rem;
   padding: 0 0 0 0.8rem;
-  border: 0;
   border-left: 5px solid #00c485;
+  color: #1e2339;
+}
+
+.gla-btn-read-more {
+  padding: 0 0 0 0.8rem;
+  border: 0;
   background: transparent;
   color: #1e2339;
   text-transform: initial;
