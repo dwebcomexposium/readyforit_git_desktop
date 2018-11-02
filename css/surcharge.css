@@ -2025,7 +2025,11 @@ body.faq .layout-2-col {
   right: 0;
   bottom: 0;
   left: 0;
+  width: auto;
+  height: auto;
   padding: 17rem 0 6rem;
+  box-shadow: none;
+  text-align: center;
 }
 
 .node646244 .gla-item {
