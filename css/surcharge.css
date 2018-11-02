@@ -747,6 +747,12 @@ h1,
   text-transform: uppercase;
 }
 
+h1::before {
+  content: '';
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
 .intro,
 .article-intro {
   position: absolute;
