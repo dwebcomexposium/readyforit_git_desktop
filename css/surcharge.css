@@ -1844,8 +1844,10 @@ h1,
   left: initial;
   width: 673px;
   height: 225px;
+  padding: 2rem;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+  text-align: left;
 }
 
 .gla-item > a:hover .gla-item-content,
@@ -1856,9 +1858,24 @@ h1,
   color: #1e2339;
 }
 
+.gla-item-title {
+  font-weight: 500;
+}
+
 .gla-item > a:hover .gla-item-title,
 .gla-item > a:focus .gla-item-title {
   color: #1e2339;
+}
+
+.gla-item-btn {
+  order: 3;
+  margin-top: 2rem;
+  padding: 0 0 0 0.8rem;
+  border: 0;
+  border-left: 5px solid #00c485;
+  background: transparent;
+  color: #1e2339;
+  text-transform: initial;
 }
 
 /* Contact */
