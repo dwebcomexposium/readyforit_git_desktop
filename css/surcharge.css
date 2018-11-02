@@ -1839,14 +1839,26 @@ h1,
 
 .gla-item-content {
   position: absolute;
+  right: 50px;
+  bottom: calc(50% - 112px);
+  left: initial;
   width: 673px;
   height: 225px;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
-.gla-item-content:hover {
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  right: 70px;
+  background: #ffffff;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+  color: #1e2339;
+}
+
+.gla-item > a:hover .gla-item-title,
+.gla-item > a:focus .gla-item-title {
+  color: #1e2339;
 }
 
 /* Contact */
