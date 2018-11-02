@@ -374,6 +374,21 @@ a {
 .lang-switcher {
   right: 15rem;
   padding: 0.38rem 0;
+  background: #1e2339;
+}
+
+.ls-trigger {
+  padding: 0.5rem 1.5rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.ls-trigger::after {
+  border-color: #ffffff transparent transparent;
+}
+
+.ls-trigger:focus {
+  outline: 0;
 }
 
 .wrapper,
@@ -417,6 +432,10 @@ a {
 .mn-menu-line {
   justify-content: center;
   border: 0;
+}
+
+.mn-link {
+  font-weight: 500;
 }
 
 .mn-item-lvl-1 > .mn-link {
@@ -1040,7 +1059,7 @@ h1::before {
   max-width: 1220px;
   margin: 0 auto 4rem;
   padding: 7rem 4rem;
-  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0;
+  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
 }
 
@@ -1213,6 +1232,17 @@ h1::before {
   width: 60%;
 }
 
+.front #zone2 .actu-container .la-item-title {
+  font-weight: 500;
+}
+
+.front #zone2 .actu-container .la-item-title a,
+.front #zone2 .actu-container .la-item-title a:focus,
+.front #zone2 .actu-container .la-item-title a:hover {
+  color: #1e2339;
+  text-decoration: none;
+}
+
 .front #zone2 .actu-container .la-highlight > .la-item:first-child .la-item-desc {
   display: inline;
   background-color: #ffffff;
@@ -1241,7 +1271,7 @@ h1::before {
 .front #zone2 .actu-container .la-column .la-item {
   width: 22%;
   max-width: 260px;
-  margin: 6rem 2.5rem 0;
+  margin: 4rem 2.5rem 0;
   padding: 0;
   transition: all 0.3s ease-out;
   border: 0;
@@ -1250,7 +1280,7 @@ h1::before {
 }
 
 .front #zone2 .actu-container .la-column .la-item:hover {
-  margin: 4rem 2.5rem 0;
+  margin: 2rem 2.5rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
