@@ -1832,8 +1832,21 @@ h1,
   box-shadow: none;
 }
 
-.gla-item-content {
+.gla-item img {
+  width: 569px;
+  height: 285px;
+}
 
+.gla-item-content {
+  position: absolute;
+  width: 673px;
+  height: 225px;
+  background: #ffffff;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+
+.gla-item-content:hover {
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 /* Contact */
@@ -1982,6 +1995,7 @@ body.faq .layout-2-col {
 }
 
 .node646244 .gla-item {
+  width: calc(100% * 1 / 4 - 1em);
   padding: 6px;
   box-shadow: none;
 }
