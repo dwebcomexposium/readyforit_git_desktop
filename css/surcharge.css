@@ -1795,7 +1795,8 @@ h1::before {
   border: 0;
   background: transparent;
   color: #1e2339;
-  font-weight: 700;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
   text-transform: initial;
 }
 
