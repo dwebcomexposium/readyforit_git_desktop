@@ -1787,6 +1787,7 @@ h1::before {
   padding: 0 0 0 0.8rem;
   border-left: 5px solid #f39005;
   color: #1e2339;
+  line-height: 1.2;
 }
 
 .gla-btn-read-more {
@@ -1794,8 +1795,7 @@ h1::before {
   border: 0;
   background: transparent;
   color: #1e2339;
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 700;
   text-transform: initial;
 }
 
