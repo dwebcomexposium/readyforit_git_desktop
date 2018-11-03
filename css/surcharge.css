@@ -1785,16 +1785,26 @@ h1::before {
   order: 3;
   margin-top: 2rem;
   padding: 0 0 0 0.8rem;
-  border-left: 5px solid #00c485;
+  border-left: 5px solid #f39005;
   color: #1e2339;
 }
 
 .gla-btn-read-more {
-  padding: 0 0 0 0.8rem;
+  padding: 0;
   border: 0;
   background: transparent;
   color: #1e2339;
+  font-weight: 500;
+  line-height: 1.2;
   text-transform: initial;
+}
+
+.gla-btn-read-more:focus,
+.gla-btn-read-more:hover,
+.gla-btn-read-more:active {
+  border-color: transparent;
+  background-color: transparent;
+  color: #1e2339;
 }
 
 .front #zone2 .actu-container::before,
