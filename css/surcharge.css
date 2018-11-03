@@ -27,7 +27,9 @@
 /* CUSTOM */
 /***********************************/
 html,
-html * {
+html *,
+[class^="btn"],
+.btn {
   font-family: 'Barlow', sans-serif;
 }
 
@@ -1334,7 +1336,7 @@ h1::before {
   background: transparent;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: initial;
 }
 
@@ -1528,7 +1530,7 @@ h1::before {
   padding: 1.5rem 2rem 0;
   background: #ffffff;
   box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.25);
-  color: #ff7600;
+  color: #f39005;
   font-weight: 500;
 }
 
@@ -1711,7 +1713,7 @@ h1::before {
 
 .info-content .phone-item,
 .info-content .web-item a {
-  color: #ff7600;
+  color: #f39005;
   font-weight: 500;
 }
 
@@ -1839,7 +1841,7 @@ h1::before {
   padding-left: 0.8rem;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
 }
 
