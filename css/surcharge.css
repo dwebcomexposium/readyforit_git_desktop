@@ -1968,6 +1968,28 @@ h1::before {
   margin-top: 1.5rem;
 }
 
+#zone2 .pl-item-group.is-visible {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#zone2 .is-visible .pl-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  max-width: 589px;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-bottom: 0;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+
+#zone2 .is-visible .pl-item:hover {
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+
 /* Contact */
 .node646260 .layout-2-col {
   background: transparent url('img/readyforit/bg_logo.png') no-repeat right -170px;
