@@ -1131,10 +1131,6 @@ h1::before {
 }
 
 /* Actualités */
-.front .main-title-with-link {
-  display: none;
-}
-
 .title-actualites {
   color: #00c485;
 }
@@ -1163,17 +1159,6 @@ h1::before {
   position: relative;
 }
 
-.front #zone2 .actu-container::before {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 310px;
-  left: 0;
-  width: 100%;
-  height: 320px;
-  background: #00c485 url('img/readyforit/bg_4.jpg') no-repeat left top;
-}
-
 .front #zone2 .actu-container .inside {
   max-width: 1220px;
   margin: 0 auto;
@@ -1187,7 +1172,7 @@ h1::before {
   min-height: 430px;
   margin: 3rem auto 9rem;
   padding: 3.7rem 5rem;
-  background: url(img/readyforit/bg_2.jpg) no-repeat 0 0 / cover;
+  background: url('img/readyforit/bg_2.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
   text-align: center;
 }
@@ -1284,10 +1269,10 @@ h1::before {
   content: '';
   display: inline-block;
   position: absolute;
-  top: 137px;
+  top: 170px;
   right: 0;
   width: 100%;
-  height: 320px;
+  height: 240px;
   background: #00e2ff url('img/readyforit/bg_5.jpg') no-repeat right top;
 }
 
@@ -1469,6 +1454,12 @@ h1::before {
 /***********************************/
 /* All in one */
 /***********************************/
+.front .main-title-with-link,
+.node646244 .main-title-with-link,
+.node798641 .main-title-with-link {
+  display: none;
+}
+
 #zone2 .article-wrapper,
 #zone2 .contacts-list {
   max-width: inherit;
@@ -1806,6 +1797,25 @@ h1::before {
   text-transform: initial;
 }
 
+.front #zone2 .actu-container::before,
+.node798641 #zone2::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 100%;
+  height: 240px;
+}
+
+.front #zone2 .actu-container::before {
+  background: #00c485 url('img/readyforit/bg_6.jpg') no-repeat left top;
+}
+
+.node798641 #zone2::before {
+  background: #f39005 url('img/readyforit/bg_6.jpg') no-repeat left top;
+}
+
 #zone2 .grid-la-list .la-list.has-2col {
   display: flex;
   flex-direction: column;
@@ -2069,10 +2079,6 @@ body.faq .layout-2-col {
 /* Aller à Monaco */
 .node646244 #zone1 {
   position: relative;
-}
-
-.node646244 .main-title-with-link {
-  display: none;
 }
 
 .node646244 .grid-la-list {
