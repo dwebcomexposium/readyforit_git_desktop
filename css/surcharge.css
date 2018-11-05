@@ -319,7 +319,7 @@ a {
 }
 
 .cc-cookies {
-  top: initial;
+  top: inherit;
   bottom: 0;
   padding: 1rem 5%;
   background: #1e2339;
@@ -356,7 +356,7 @@ a {
 }
 
 .site-banner .inside {
-  max-width: initial;
+  max-width: inherit;
   padding: 0;
 }
 
@@ -396,7 +396,7 @@ a {
 
 .wrapper,
 .site-wrapper {
-  max-width: initial;
+  max-width: inherit;
 }
 
 .header-container {
@@ -560,7 +560,7 @@ a {
 .site-footer .inside {
   display: flex;
   flex-direction: column;
-  max-width: initial;
+  max-width: inherit;
   padding: 4.25em 0 0;
   border-top: 11px solid #565968;
   background: #1e2339;
@@ -780,7 +780,7 @@ h1::before {
   top: 22rem;
   left: 0;
   width: 100%;
-  max-width: initial !important;
+  max-width: inherit !important;
   margin: 0;
   padding: 0 10%;
   color: #ffffff;
@@ -804,7 +804,7 @@ h1::before {
 
 /* Slider */
 .front #zone1 {
-  position: initial;
+  position: inherit;
 }
 
 #zone1 .slider {
@@ -1342,7 +1342,7 @@ h1::before {
   color: #1e2339;
   font-size: 1.5rem;
   font-weight: 500;
-  text-transform: initial;
+  text-transform: inherit;
 }
 
 .front #zone2 .highlight-container .slider-pagin {
@@ -1356,7 +1356,7 @@ h1::before {
 
 .front #zone2 .highlight-container .slider-pagin-btn {
   display: flex;
-  position: initial;
+  position: inherit;
   justify-content: space-between;
 }
 
@@ -1489,7 +1489,7 @@ h1::before {
 }
 
 .article-title {
-  position: initial;
+  position: inherit;
 }
 
 .article-title img {
@@ -1555,7 +1555,7 @@ h1::before {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.2;
-  text-transform: initial;
+  text-transform: inherit;
 }
 
 .cl-item-email {
@@ -1762,7 +1762,7 @@ h1::before {
   position: absolute;
   right: 50px;
   bottom: calc(50% - 112px);
-  left: initial;
+  left: inherit;
   width: 673px;
   height: 225px;
   padding: 2rem;
@@ -1808,7 +1808,7 @@ h1::before {
   color: #1e2339;
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
-  text-transform: initial;
+  text-transform: inherit;
 }
 
 .gla-btn-read-more:focus,
@@ -1969,7 +1969,7 @@ h1::before {
 }
 
 #zone2 .grid-la-list .la-column .la-item-desc {
-  font-size: initial;
+  font-size: inherit;
   line-height: 1.2;
 }
 
@@ -2116,9 +2116,9 @@ body.faq .layout-2-col {
 
 .error404 h1 {
   display: block;
-  position: initial;
-  color: initial;
-  text-transform: initial;
+  position: inherit;
+  color: inherit;
+  text-transform: inherit;
 }
 
 /* Aller à Monaco */
