@@ -403,6 +403,7 @@ a {
   display: flex;
   position: relative;
   align-items: center;
+  background: #ffffff;
 }
 
 .front .header-container {
@@ -425,6 +426,7 @@ a {
 
 .header-logo {
   position: absolute;
+  z-index: 1;
   top: -2.5rem;
   left: 0;
   width: 137px;
@@ -433,7 +435,7 @@ a {
 }
 
 .front .header-logo {
-  position: inherit;
+  position: relative;
   width: 635px;
   height: 280px;
   background: url('img/readyforit/logo.png') no-repeat;
