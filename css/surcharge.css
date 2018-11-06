@@ -435,7 +435,7 @@ a {
 }
 
 .front .header-logo {
-  position: relative;
+  position: inherit;
   width: 635px;
   height: 280px;
   background: url('img/readyforit/logo.png') no-repeat;
@@ -461,13 +461,21 @@ a {
   line-height: 1.3;
 }
 
+.main-navigation {
+  box-shadow: none;
+}
+
+.front .main-navigation {
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.08);
+}
+
 /* Stiky header */
 .is-stuck {
   display: none;
 }
 
 .front .is-stuck {
-  display: none;
+  display: block;
 }
 
 .is-stuck.site-banner {
