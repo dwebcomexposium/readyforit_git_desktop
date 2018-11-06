@@ -461,14 +461,6 @@ a {
   line-height: 1.3;
 }
 
-.main-navigation {
-  box-shadow: none;
-}
-
-.front .main-navigation {
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.08);
-}
-
 /* Stiky header */
 .is-stuck {
   display: none;
@@ -476,6 +468,15 @@ a {
 
 .front .is-stuck {
   display: block;
+}
+
+.main-navigation,
+.is-stuck .main-navigation {
+  box-shadow: none;
+}
+
+.front .main-navigation {
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.08);
 }
 
 .is-stuck.site-banner {
