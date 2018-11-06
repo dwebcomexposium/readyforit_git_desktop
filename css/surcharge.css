@@ -399,31 +399,96 @@ a {
   max-width: inherit;
 }
 
+/* Stiky header */
+.is-stuck.site-banner {
+  z-index: 100;
+  padding: 0;
+}
+
+/*.is-stuck.site-banner .header-container {
+  display: flex;
+  align-items: center;
+}
+
+.is-stuck.site-banner .header-content {
+  margin-right: 5rem;
+  padding-left: 16rem;
+  background: transparent;
+}
+
+.is-stuck.site-banner .header-logo {
+  position: absolute;
+  top: -2.5rem;
+  left: 0;
+  width: 137px;
+  height: 170px;
+  background: url('img/readyforit/logo-stiky.png') no-repeat;
+}
+
+.is-stuck.site-banner .header-date {
+  margin-right: 0;
+  padding: 1.5rem 0;
+}*/
+
+.is-stuck .mn-item-lvl-1:first-child,
+.is-stuck .lang-switcher {
+  display: block;
+}
+
+
 .header-container {
+  display: flex;
   position: relative;
+  align-items: center;
+}
+
+.front .header-container {
+  display: block;
 }
 
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 5rem;
+  padding-left: 16rem;
+}
+
+.front .header-content {
+  margin-right: 0;
+  padding-left: 0;
   background: #025563 url('img/readyforit/bg_header.jpg') no-repeat right top;
 }
 
 .header-logo {
+  position: absolute;
+  top: -2.5rem;
+  left: 0;
+  width: 137px;
+  height: 170px;
+  background: url('img/readyforit/logo-stiky.png') no-repeat;
+}
+
+.front .header-logo {
+  position: inherit;
   width: 635px;
   height: 280px;
   background: url('img/readyforit/logo.png') no-repeat;
 }
 
 .header-date {
-  margin-right: 11rem;
-  padding: 1.5rem 2rem;
-  background-color: #ffffff;
+  margin-right: 0;
+  padding: 1.5rem 0;
   color: #1e2339;
   font-size: 1.8rem;
   font-weight: 500;
   text-align: center;
+}
+
+.front .header-date {
+  margin-right: 11rem;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
 }
 
 .header-date p {
@@ -473,43 +538,6 @@ a {
 .mn-menu-submenu .mn-link.is-active {
   background: #ffffff;
   color: #ff3100;
-}
-
-
-/* Stiky header */
-.is-stuck.site-banner {
-  z-index: 100;
-  padding: 0;
-}
-
-.is-stuck.site-banner .header-container {
-  display: flex;
-  align-items: center;
-}
-
-.is-stuck.site-banner .header-content {
-  margin-right: 5rem;
-  padding-left: 16rem;
-  background: transparent;
-}
-
-.is-stuck.site-banner .header-date {
-  margin-right: 0;
-  padding: 1.5rem 0;
-}
-
-.is-stuck.site-banner .header-logo {
-  position: absolute;
-  top: -2.5rem;
-  left: 0;
-  width: 137px;
-  height: 170px;
-  background: url('img/readyforit/logo-stiky.png') no-repeat;
-}
-
-.is-stuck .mn-item-lvl-1:first-child,
-.is-stuck .lang-switcher {
-  display: block;
 }
 
 
