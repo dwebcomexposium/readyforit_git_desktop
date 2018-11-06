@@ -471,7 +471,7 @@ a {
 }
 
 .main-navigation,
-.is-stuck .main-navigation {
+.front .is-stuck .main-navigation {
   box-shadow: none;
 }
 
@@ -1072,6 +1072,11 @@ h1::before {
   transform: rotate(0);
   border-radius: 50%;
   background: #1e2339;
+}
+
+.article-content ul.style1 > li strong {
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .article-content blockquote {
