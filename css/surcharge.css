@@ -477,6 +477,14 @@ a {
 
 
 /* Stiky header */
+.is-stuck {
+  display: none;
+}
+
+.front .is-stuck {
+  display: block;
+}
+
 .is-stuck.site-banner {
   z-index: 100;
   padding: 0;
