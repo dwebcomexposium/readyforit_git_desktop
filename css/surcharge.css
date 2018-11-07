@@ -2299,3 +2299,19 @@ body.faq .layout-2-col {
 .error404 .inside.ep-form-wrap {
   display: none;
 }
+
+
+/* Navigation article */
+.article-navigation .an-item-previous .an-item-title,
+.article-navigation .an-item-previous .an-item-publication {
+  padding-left: 4rem;
+}
+
+.article-navigation .an-item-next .an-item-content {
+  text-align: right;
+}
+
+.article-navigation .an-item-previous .an-item-title,
+.article-navigation .an-item-previous .an-item-publication {
+  padding-right: 4rem;
+}
