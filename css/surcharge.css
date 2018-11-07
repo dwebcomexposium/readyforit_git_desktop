@@ -1915,7 +1915,8 @@ h1::before {
   text-decoration: none;
 }
 
-#zone2 .actu-container .link-read-more {
+#zone2 .actu-container .link-read-more,
+#zone2 .grid-la-list .link-read-more {
   border-left: 5px solid #00c485;
 }
 
