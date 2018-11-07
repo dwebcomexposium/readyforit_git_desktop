@@ -529,21 +529,18 @@ a {
   font-weight: 500;
 }
 
-.mn-item-lvl-1 > .mn-link {
-  min-height: 54px;
-  padding-bottom: 0.5em;
-  color: #1e2339;
-  font-size: 1.8rem;
-  text-transform: inherit;
-}
-
 .front .mn-item-lvl-1 > .mn-link {
   min-height: 65px;
   padding-bottom: 1em;
 }
 
+.mn-item-lvl-1 > .mn-link,
 .front .is-stuck .mn-item-lvl-1 > .mn-link {
+  min-height: 54px;
   padding-bottom: 0.5em;
+  color: #1e2339;
+  font-size: 1.8rem;
+  text-transform: inherit;
 }
 
 .mn-link-text::before {
