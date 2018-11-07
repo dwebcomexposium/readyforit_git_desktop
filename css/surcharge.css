@@ -875,9 +875,11 @@ h1::before {
   top: calc(50% - 29px);
   right: 10%;
   margin: 0;
+  padding: 0;
 }
 
 .front #zone1 .cta-1 .btn-primary {
+  padding: 1rem 2rem;
   border-color: transparent;
   background-color: transparent;
   color: #ffffff;
@@ -1284,13 +1286,14 @@ h1::before {
 }
 
 .program-container p {
+  margin-bottom: 4rem;
   font-size: 2rem;
 }
 
 .program-focus {
   display: flex;
   justify-content: space-between;
-  margin: 4rem auto 7.9rem;
+  margin: 0 auto 7.9rem;
 }
 
 .program-focus a {
