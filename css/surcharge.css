@@ -2318,7 +2318,7 @@ body.faq .layout-2-col {
   text-align: right;
 }
 
-.article-navigation .an-item-previous .an-item-title,
-.article-navigation .an-item-previous .an-item-publication {
+.article-navigation .an-item-next .an-item-title,
+.article-navigation .an-item-next .an-item-publication {
   padding-right: 4rem;
 }
