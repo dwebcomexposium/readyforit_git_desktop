@@ -2273,10 +2273,14 @@ body.faq .layout-2-col {
 
 /* Page 404 */
 .error404 .layout-2-col {
-  max-width: 1220px;
   min-height: 492px;
-  margin: 0 auto;
   background: transparent url('img/readyforit/bg_404.png') no-repeat right -170px;
+}
+
+.error404 #zone2 {
+  display: block;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .error404 .error-page {
@@ -2293,7 +2297,10 @@ body.faq .layout-2-col {
 }
 
 .error404 .intro {
+  position: inherit;
+  padding: 0;
   color: #1e2339;
+  text-align: left;
 }
 
 .error404 .inside.ep-form-wrap {
