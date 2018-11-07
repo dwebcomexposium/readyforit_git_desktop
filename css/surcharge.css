@@ -472,6 +472,8 @@ a {
 
 .main-navigation,
 .front .is-stuck .main-navigation {
+  padding-top: 0;
+  clear: none;
   box-shadow: none;
 }
 
@@ -525,6 +527,8 @@ a {
 }
 
 .mn-item-lvl-1 > .mn-link {
+  min-height: 54px;
+  padding-bottom: 0.5em;
   color: #1e2339;
   font-size: 1.8rem;
   text-transform: inherit;
