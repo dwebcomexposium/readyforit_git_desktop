@@ -2203,13 +2203,6 @@ body.faq .layout-2-col {
   color: #1e2339;
 }
 
-.error404 h1 {
-  display: block;
-  position: inherit;
-  color: inherit;
-  text-transform: inherit;
-}
-
 /* Aller à Monaco */
 .node646244 #zone1 {
   position: relative;
@@ -2293,6 +2286,11 @@ body.faq .layout-2-col {
 }
 
 /* Page 404 */
+.error404 #zone1,
+.error404 #zone4 {
+  display: none;
+}
+
 .error404 .layout-2-col {
   min-height: 492px;
   background: transparent url('img/readyforit/bg_404.png') no-repeat right -170px;
@@ -2309,12 +2307,16 @@ body.faq .layout-2-col {
 }
 
 .error404 .main-title {
+  display: block;
+  position: inherit;
   margin-bottom: 1em;
   padding: 0;
+  color: #1e2339;
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 1.2;
   text-align: left;
+  text-transform: inherit;
 }
 
 .error404 .intro {
