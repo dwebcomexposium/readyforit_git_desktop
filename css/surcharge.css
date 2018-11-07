@@ -476,7 +476,8 @@ a {
   box-shadow: none;
 }
 
-.front .main-navigation {
+.front .main-navigation,
+.front .is-stuck .main-navigation {
   padding-top: 0.65em;
 }
 
