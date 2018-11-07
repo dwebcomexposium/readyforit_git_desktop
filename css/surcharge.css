@@ -2068,6 +2068,7 @@ h1::before {
 
 /* Contact */
 .node646260 .layout-2-col {
+  min-height: 492px;
   background: transparent url('img/readyforit/bg_logo.png') no-repeat right -170px;
 }
 
@@ -2268,4 +2269,34 @@ body.faq .layout-2-col {
 .node646244 .gla-item .gla-item-content:hover::after {
   bottom: -16px;
   color: #2b2f2f;
+}
+
+/* Page 404 */
+
+.error404 .layout-2-col {
+  max-width: 1220px;
+  min-height: 492px;
+  margin: 0 auto;
+  background: transparent url('img/readyforit/bg_404.png') no-repeat right -170px;
+}
+
+.error404 .error-page {
+  width: 42%;
+}
+
+.error404 .main-title {
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.error404 .intro {
+  color: #1e2339;
+}
+
+.error404 .inside.ep-form-wrap {
+  display: none;
 }
