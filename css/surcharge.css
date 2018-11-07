@@ -836,7 +836,7 @@ h1::before {
   top: 22rem;
   left: 0;
   width: 100%;
-  max-width: inherit !important;
+  max-width: 100% !important;
   margin: 0;
   padding: 0 10%;
   color: #ffffff;
