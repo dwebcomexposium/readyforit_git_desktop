@@ -476,8 +476,7 @@ a {
   box-shadow: none;
 }
 
-.front .main-navigation,
-.front .is-stuck .main-navigation {
+.front .main-navigation {
   padding-top: 0.65em;
 }
 
@@ -541,6 +540,10 @@ a {
 .front .mn-item-lvl-1 > .mn-link {
   min-height: 65px;
   padding-bottom: 1em;
+}
+
+.front .is-stuck .mn-item-lvl-1 > .mn-link {
+  padding-bottom: 0.5em;
 }
 
 .mn-link-text::before {
