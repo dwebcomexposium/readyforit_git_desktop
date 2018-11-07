@@ -462,14 +462,6 @@ a {
 }
 
 /* Stiky header */
-.is-stuck {
-  display: none;
-}
-
-.front .is-stuck {
-  display: block;
-}
-
 .main-navigation,
 .front .is-stuck .main-navigation {
   padding-top: 0;
@@ -877,6 +869,31 @@ h1::before {
   position: inherit;
 }
 
+.front #zone1 .cta-1 {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% - 29px);
+  right: 10%;
+  margin: 0;
+}
+
+.front #zone1 .cta-1 .btn-primary {
+  border-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.front #zone1 .cta-1:hover,
+.front #zone1 .cta-1 .btn-primary:focus,
+.front #zone1 .cta-1 .btn-primary:hover,
+.front #zone1 .cta-1 .btn-primary:active {
+  color: #ff3100;
+}
+
+.front #zone1 .list-articles {
+  margin-top: 0;
+}
+
 #zone1 .slider {
   position: relative;
 }
@@ -1251,7 +1268,6 @@ h1::before {
   position: relative;
   width: 86%;
   max-width: 1220px;
-  min-height: 430px;
   margin: 3rem auto 9rem;
   padding: 3.7rem 5rem;
   background: url('img/readyforit/bg_2.jpg') no-repeat 0 0 / cover;
@@ -1274,7 +1290,7 @@ h1::before {
 .program-focus {
   display: flex;
   justify-content: space-between;
-  margin: 4rem auto;
+  margin: 4rem auto 7.9rem;
 }
 
 .program-focus a {
