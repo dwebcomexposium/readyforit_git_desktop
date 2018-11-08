@@ -105,7 +105,7 @@ h3 {
 }
 
 h4 {
-  margin-top: 0;
+  margin-bottom: 0;
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -2216,6 +2216,10 @@ h1::before {
   width: 42%;
 }
 
+.node646260 #zone2 h4 {
+  margin-bottom: 1em;
+}
+
 .node646260 #zone2 .article-content a.externe {
   display: inline-block;
   width: 27.9rem;
@@ -2463,4 +2467,14 @@ body.faq .layout-2-col {
 .article-navigation .an-item-next .an-item-title,
 .article-navigation .an-item-next .an-item-publication {
   padding-right: 4rem;
+}
+
+/* Pages liens footer */
+.parent659648 h1 {
+  display: block;
+  position: inherit;
+  padding: 0;
+  color: #1e2339;
+  text-align: left;
+  text-transform: initial;
 }
