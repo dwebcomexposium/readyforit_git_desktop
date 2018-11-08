@@ -1951,6 +1951,12 @@ h1::before {
   top: 817px;
 }
 
+.node798641 #zone2 {
+  display: block;
+  min-height: 560px;
+  margin: 0 auto;
+}
+
 #zone2 .grid-la-list .la-list.has-2col {
   display: flex;
   flex-direction: column;
