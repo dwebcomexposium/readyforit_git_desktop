@@ -1592,8 +1592,8 @@ h1::before {
 /* All in one */
 /***********************************/
 .front .main-title-with-link,
-.node646244 .main-title-with-link,
-.node798641 .main-title-with-link {
+.node646244 .link-view-all,
+.node798641 .link-view-all {
   display: none;
 }
 
