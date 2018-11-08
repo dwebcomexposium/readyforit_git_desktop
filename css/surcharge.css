@@ -1867,6 +1867,11 @@ h1::before {
   box-shadow: none;
 }
 
+.node800165 .gla-item {
+  margin-bottom: 4rem;
+  margin-left: 0;
+}
+
 .gla-item img {
   width: 569px;
   height: 285px;
@@ -1874,7 +1879,7 @@ h1::before {
 
 .node800165 .gla-item img {
   width: 898px;
-  height: 325px;
+  height: 285px;
 }
 
 .gla-item-content {
@@ -1914,6 +1919,11 @@ h1::before {
   font-weight: 500;
 }
 
+.node800165 .gla-item-title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
 .gla-item > a:hover .gla-item-title,
 .gla-item > a:focus .gla-item-title {
   color: #1e2339;
@@ -1923,6 +1933,13 @@ h1::before {
   margin-top: 1.5rem;
 }
 
+.node800165 .gla-item-desc {
+  margin-top: 0.5rem;
+  color: #7b7c7f;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
 .gla-item-content .gla-item-btn {
   order: 3;
   margin-top: 2rem;
@@ -1930,6 +1947,20 @@ h1::before {
   border-left: 5px solid #00c485;
   color: #1e2339;
   line-height: 1.2;
+}
+
+.node800165 .gla-item-content .gla-item-btn {
+  padding: 0;
+  border-left: 0;
+}
+
+.node800165 .gla-item-content .gla-item-btn::before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 1.5rem;
+  background: url('img/readyforit/icon_map.png') no-repeat;
 }
 
 .gla-btn-read-more {
@@ -1942,12 +1973,22 @@ h1::before {
   text-transform: inherit;
 }
 
+.node800165 .gla-btn-read-more {
+  color: #f39005;
+}
+
 .gla-btn-read-more:focus,
 .gla-btn-read-more:hover,
 .gla-btn-read-more:active {
   border-color: transparent;
   background-color: transparent;
   color: #1e2339;
+}
+
+.node800165 .gla-btn-read-more:focus,
+.node800165 .gla-btn-read-more:hover,
+.node800165 .gla-btn-read-more:active {
+  color: #f39005;
 }
 
 .front #zone2 .actu-container::before,
