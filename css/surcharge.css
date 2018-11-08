@@ -352,7 +352,6 @@ a {
 
 /* Header */
 .site-banner {
-  z-index: 1;
   border-bottom: 1px solid #e3e9ea;
   background: transparent;
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
@@ -552,10 +551,6 @@ a {
 .mn-link.mn-link.is-active {
   background: transparent;
   color: #ff3100;
-}
-
-.mn-item-has-submenu {
-  z-index: 2;
 }
 
 .mn-menu-submenu {
