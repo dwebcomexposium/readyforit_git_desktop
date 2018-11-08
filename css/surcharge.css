@@ -352,7 +352,10 @@ a {
 
 /* Header */
 .site-banner {
+  z-index: 1;
+  border-bottom: 1px solid #e3e9ea;
   background: transparent;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .site-banner .inside {
@@ -854,6 +857,20 @@ h1::before {
   border: 0;
 }
 
+/* Partenaires médias */
+.node666356 .intro {
+  position: inherit;
+  padding: 0;
+  color: #1e2339;
+  text-align: left;
+}
+
+.node666356 .intro p {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+
 /***********************************/
 /* HOME */
 /***********************************/
@@ -1260,6 +1277,7 @@ h1::before {
 
 .front #zone2 .actu-container {
   position: relative;
+  min-height: 600px;
 }
 
 .front #zone2 .actu-container .inside {
@@ -1989,7 +2007,7 @@ h1::before {
   z-index: 5;
   top: 4rem;
   left: 0;
-  width: 60%;
+  width: 62%;
 }
 
 #zone2 .grid-la-list .la-item-title {
