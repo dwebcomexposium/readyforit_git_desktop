@@ -2470,7 +2470,14 @@ body.faq .layout-2-col {
 }
 
 /* Pages liens footer */
-.parent659648 h1 {
+.parent659648 .article-title,
+.parent659648 .article-intro {
+  max-width: 1220px !important;
+  margin: 0 auto;
+}
+
+.parent659648 h1,
+.parent659648 .article-intro {
   display: block;
   position: inherit;
   padding: 0;
