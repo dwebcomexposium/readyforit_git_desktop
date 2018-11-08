@@ -179,10 +179,12 @@ a {
 
 /* Button */
 .cta-1,
-.focus1 a,
+.style1 a,
 .cta-2,
-.focus2 a,
-.cta-3 {
+.style2 a,
+.cta-3,
+.style3 a,
+.style4 a {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
@@ -192,47 +194,60 @@ a {
   text-decoration: none;
 }
 
-.focus1 a,
-.focus2 a {
+.style1 a,
+.style2 a,
+.style3 a,
+.style4 a {
   width: 27.9rem;
   margin: 3rem 0;
   font-size: 1.8rem;
 }
 
 .cta-1,
-.focus1 a {
+.style1 a {
   background: #ff3100;
   color: #ffffff;
 }
 
 .cta-1:hover,
-.focus1 a:hover {
+.style1 a:hover {
   background: #ffffff;
   color: #ff3100;
 }
 
 .cta-2,
-.focus2 a {
+.style2 a {
   background: #ffffff;
   color: #ff3100;
 }
 
 .cta-2:hover,
-.focus2 a:hover {
+.style2 a:hover {
   background: #ff3100;
   color: #ffffff;
 }
 
-.cta-3 {
+.cta-3,
+.style3 a {
   background: #ffffff;
   color: #00c485;
 }
 
-.cta-3:hover {
+.cta-3:hover,
+.style3 a:hover {
   background: #00c485;
   color: #ffffff;
 }
 
+.style4 a {
+  background: #6dd700;
+  color: #ffffff;
+}
+
+.style4 a:hover {
+  background: #ffffff;
+  color: #6dd700;
+}
 
 /* Color */
 .important1 {
