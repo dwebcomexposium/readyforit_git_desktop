@@ -1940,6 +1940,23 @@ h1::before {
   line-height: 1.2;
 }
 
+.node800165 .gla-item-desc strong {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: #f39005;
+  font-weight: 500;
+}
+
+.node800165 .gla-item-desc strong::before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 32px;
+  margin-right: 1.5rem;
+  background: #ffffff url('img/readyforit/icon_phone.png') no-repeat;
+}
+
 .gla-item-content .gla-item-btn {
   order: 3;
   margin-top: 2rem;
@@ -1950,6 +1967,9 @@ h1::before {
 }
 
 .node800165 .gla-item-content .gla-item-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
   padding: 0;
   border-left: 0;
 }
@@ -1960,7 +1980,7 @@ h1::before {
   width: 19px;
   height: 19px;
   margin-right: 1.5rem;
-  background: url('img/readyforit/icon_map.png') no-repeat;
+  background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
 
 .gla-btn-read-more {
