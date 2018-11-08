@@ -1800,6 +1800,7 @@ h1::before {
   max-width: 898px;
 }
 
+/* Les lieux*/
 .info-content {
   position: absolute;
   top: 40px;
@@ -1871,6 +1872,11 @@ h1::before {
   height: 285px;
 }
 
+.node800165 .gla-item img {
+  width: 898px;
+  height: 325px;
+}
+
 .gla-item-content {
   position: absolute;
   right: 50px;
@@ -1884,12 +1890,24 @@ h1::before {
   text-align: left;
 }
 
+.node800165 .gla-item-content {
+  right: 15px;
+  bottom: calc(50% - 95px);
+  width: 363px;
+  height: 190px;
+}
+
 .gla-item > a:hover .gla-item-content,
 .gla-item > a:focus .gla-item-content {
   right: 70px;
   background: #ffffff;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
   color: #1e2339;
+}
+
+.node800165 .gla-item > a:hover .gla-item-content,
+.node800165 .gla-item > a:focus .gla-item-content {
+  right: 25px;
 }
 
 .gla-item-title {
