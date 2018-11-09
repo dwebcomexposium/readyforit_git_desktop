@@ -967,10 +967,6 @@ h1::before {
   color: #1e2339;
 }
 
-#zone1 .slider-content .la-item-btn {
-  display: none;
-}
-
 #zone1 .slider-pagin-item {
   border: 1px solid #ffffff;
   border-radius: 0;
