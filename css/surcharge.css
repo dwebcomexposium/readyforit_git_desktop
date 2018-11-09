@@ -462,7 +462,6 @@ a {
   margin-right: 0;
   padding: 1.5rem 0;
   color: #1e2339;
-  font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
 }
@@ -475,6 +474,7 @@ a {
 
 .header-date p {
   margin: 0;
+  font-size: 1.8rem;
   line-height: 1.3;
 }
 
