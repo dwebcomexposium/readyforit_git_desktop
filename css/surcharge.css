@@ -1024,6 +1024,20 @@ h1::before {
   font-weight: 500;
 }
 
+#zone1 .la-slider .la-item-content .btn-primary {
+  padding: 0 0 0 0.8rem;
+  border-bottom: 0;
+  border-left: 5px solid;
+  border-color: #ff3100;
+  background: transparent;
+  font-size: 1.4rem;
+  text-transform: initial;
+}
+
+#zone1 .la-slider .la-item-content .btn-primary .icon {
+  display: none;
+}
+
 
 .title-container {
   display: flex;
