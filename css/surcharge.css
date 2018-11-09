@@ -862,7 +862,10 @@ h1::before {
 }
 
 .intro p,
-.article-intro p {
+.article-intro p,
+.intro h2,
+.article-intro h2 {
+  color: #ffffff;
   font-size: 1.8rem;
   font-weight: 500;
 }
