@@ -1027,7 +1027,7 @@ h1::before {
   border-color: #ff3100;
   background: transparent;
   font-size: 1.4rem;
-  text-transform: initial;
+  text-transform: inherit;
 }
 
 #zone1 .la-slider .la-item-content .btn-primary .icon {
@@ -2493,5 +2493,5 @@ body.faq .layout-2-col {
   padding: 0;
   color: #1e2339;
   text-align: left;
-  text-transform: initial;
+  text-transform: inherit;
 }
