@@ -1142,7 +1142,7 @@ h1::before {
 }
 
 .article-content ul,
-.content-list-bullet ul {
+.content-list-bullet {
   margin: 1rem 0;
   padding-left: 0;
 }
