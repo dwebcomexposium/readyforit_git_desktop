@@ -2144,7 +2144,8 @@ h1::before {
   text-decoration: none;
 }
 
-#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc {
+#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc,
+#zone2 .grid-la-list .la-highlight > .la-item:first-child h2 {
   display: inline;
   background-color: #ffffff;
   font-size: 3.4rem;
@@ -2152,7 +2153,8 @@ h1::before {
   line-height: 1.4;
 }
 
-#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc u {
+#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc u,
+#zone2 .grid-la-list .la-highlight > .la-item:first-child h2 u {
   color: #00c485;
   text-decoration: none;
 }
@@ -2197,7 +2199,8 @@ h1::before {
   padding: 2rem;
 }
 
-#zone2 .grid-la-list .la-column .la-item-desc {
+#zone2 .grid-la-list .la-column .la-item-desc,
+#zone2 .grid-la-list .la-column h2 {
   font-size: inherit;
   line-height: 1.2;
 }
