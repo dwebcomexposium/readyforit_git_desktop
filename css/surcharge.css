@@ -2102,7 +2102,7 @@ h1::before {
 #zone2 .grid-la-list .la-highlight > .la-item:first-child {
   display: block;
   position: relative;
-  width: 100%%;
+  width: 100%;
 }
 
 #zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-header {
