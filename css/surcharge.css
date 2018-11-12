@@ -2002,7 +2002,9 @@ h1::before {
 }
 
 .gla-item-content .gla-item-btn {
-  order: 3;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
   margin-top: 2rem;
   padding: 0 0 0 0.8rem;
   border-left: 5px solid #00c485;
