@@ -1954,6 +1954,14 @@ h1::before {
   right: 25px;
 }
 
+.gla-item-content .gla-item-desc,
+.gla-item-content h2:not(:first-child) {
+  margin-top: 1.5rem;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: 1.625;
+}
+
 .gla-item-title {
   font-weight: 500;
 }
@@ -1966,14 +1974,6 @@ h1::before {
 .gla-item > a:hover .gla-item-title,
 .gla-item > a:focus .gla-item-title {
   color: #1e2339;
-}
-
-.gla-item-content .gla-item-desc,
-.gla-item-content h2:not(:first-child) {
-  margin-top: 1.5rem;
-  font-size: inherit;
-  font-weight: normal;
-  line-height: 1.625;
 }
 
 /* Les lieux */
