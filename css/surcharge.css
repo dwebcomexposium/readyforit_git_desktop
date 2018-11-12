@@ -1038,7 +1038,6 @@ h1::before {
   display: none;
 }
 
-
 .title-container {
   display: flex;
   align-items: center;
@@ -1142,12 +1141,14 @@ h1::before {
   line-height: 0.8;
 }
 
-.article-content ul {
+.article-content ul,
+.content-list-bullet ul {
   margin: 1rem 0;
   padding-left: 0;
 }
 
-.article-content ul > li::before {
+.article-content ul > li::before,
+.content-list-bullet > li::before {
   margin-right: 2rem;
   margin-left: 0;
   transform: rotate(0);
@@ -1155,7 +1156,8 @@ h1::before {
   background: #1e2339;
 }
 
-.article-content ul.style1 > li strong {
+.article-content ul.style1 > li strong,
+.content-list-bullet ul.style1 > li strong {
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -1621,7 +1623,8 @@ h1::before {
 #zone2 .contacts-list > *:not(.intro),
 #zone2 .partner-list,
 #zone2 .faq,
-#zone2 .list-articles {
+#zone2 .list-articles,
+.sitemap .layout-2-col {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
@@ -1630,6 +1633,11 @@ h1::before {
 .front #zone2 .partner-list,
 .front #zone2 .list-articles {
   max-width: inherit;
+}
+
+.sm-item-title {
+  border: 0;
+  color: #1e2339;
 }
 
 .article-title {
