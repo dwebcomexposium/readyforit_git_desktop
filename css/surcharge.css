@@ -1968,10 +1968,15 @@ h1::before {
   color: #1e2339;
 }
 
-.gla-item-desc {
+.gla-item-content .gla-item-desc,
+.gla-item-content h2:not(:first-child) {
   margin-top: 1.5rem;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: 1.625;
 }
 
+/* Les lieux */
 .node800165 .gla-item-desc {
   margin-top: 0.5rem;
   color: #7b7c7f;
