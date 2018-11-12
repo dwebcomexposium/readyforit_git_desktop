@@ -2202,6 +2202,7 @@ h1::before {
 #zone2 .grid-la-list .la-column .la-item-desc,
 #zone2 .grid-la-list .la-column h2 {
   font-size: inherit;
+  font-weight: normal;
   line-height: 1.2;
 }
 
