@@ -2218,13 +2218,13 @@ h1::before {
   margin-top: 1.5rem;
 }
 
-#zone2 .pl-item-group.is-visible {
+#zone2 .pl-item-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#zone2 .is-visible .pl-item {
+#zone2 .pl-item {
   display: flex;
   align-items: center;
   width: 50%;
@@ -2235,7 +2235,7 @@ h1::before {
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
-#zone2 .is-visible .pl-item:hover {
+#zone2 .pl-item:hover {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
