@@ -2182,6 +2182,10 @@ h1::before {
   padding: 0;
 }
 
+.front #zone2 .grid-la-list .la-column {
+  flex-wrap: nowrap;
+}
+
 #zone2 .grid-la-list .la-column .la-item {
   width: 33%;
   max-width: 350px;
@@ -2214,6 +2218,10 @@ h1::before {
   font-size: inherit;
   font-weight: normal;
   line-height: 1.2;
+}
+
+#zone2 .grid-la-list .la-column h2:not(:first-child) {
+  margin-top: 1.5rem;
 }
 
 #zone2 .grid-la-list .la-column p {
