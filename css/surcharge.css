@@ -784,10 +784,6 @@ a {
   display: flex;
 }
 
-.footer-bottom-container ul {
-  display: flex;
-}
-
 .footer-bottom-container [class^="btn"] {
   padding: 1rem;
   border: 0;
@@ -2178,6 +2174,7 @@ h1::before {
 
 #zone2 .grid-la-list .la-column {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   width: 100%;
