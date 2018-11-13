@@ -45,41 +45,41 @@
 .parent601409 h1::before {
   width: 62px;
   height: 63px;
-  background: url('img/readyforit/icon_about.svg') no-repeat;
+  background: url('img/readyforit/icon_about.svg') no-repeat center;
 }
 
 /* Programme */
 .parent601410 h1::before {
   width: 62px;
-  height: 62px;
-  background: url('img/readyforit/icon_program.svg') no-repeat;
+  height: 63px;
+  background: url('img/readyforit/icon_program.svg') no-repeat center;
 }
 
 /* Partenaires medias */
 .parent601411 h1::before {
   width: 62px;
-  height: 62px;
-  background: url('img/readyforit/icon_partner.svg') no-repeat;
+  height: 63px;
+  background: url('img/readyforit/icon_partner.svg') no-repeat center;
 }
 
 /* Participation */
 .parent601412 h1::before {
-  width: 72px;
-  height: 39px;
-  background: url('img/readyforit/icon_participation.svg') no-repeat;
+  width: 62px;
+  height: 63px;
+  background: url('img/readyforit/icon_participation.svg') no-repeat center;
 }
 
 /* Infos pratiques */
 .parent601415 h1::before {
   width: 62px;
-  height: 62px;
-  background: url('img/readyforit/icon_info.svg') no-repeat;
+  height: 63px;
+  background: url('img/readyforit/icon_info.svg') no-repeat center;
 }
 
 /* Blog/Press */
 .parent601413 h1::before,
 .parent601399 h1::before {
   width: 62px;
-  height: 62px;
-  background: url('img/readyforit/icon_blog.svg') no-repeat;
+  height: 63px;
+  background: url('img/readyforit/icon_blog.svg') no-repeat center;
 }
