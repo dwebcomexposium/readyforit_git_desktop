@@ -2256,7 +2256,7 @@ h1::before {
   font-weight: 500;
 }
 
-#zone2 .ezxmltext-field p {
+#zone2 .pl-item-content .ezxmltext-field p {
   color: #7b7c7f;
   line-height: 1.2;
 }
