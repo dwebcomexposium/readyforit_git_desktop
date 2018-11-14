@@ -1968,6 +1968,10 @@ h1::before {
   height: 190px;
 }
 
+.gla-item > a {
+  height: 285px;
+}
+
 .gla-item > a:hover .gla-item-content,
 .gla-item > a:focus .gla-item-content {
   right: 70px;
