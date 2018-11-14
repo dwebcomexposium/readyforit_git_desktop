@@ -1956,13 +1956,16 @@ h1::before {
   right: 25px;
 }
 
-.gla-item-title {
+h2.gla-item-title {
+  margin-top: 0;
   font-weight: 500;
 }
 
 .node800165 .gla-item-title {
   margin: 0;
+  color: #1e2339;
   font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .gla-item > a:hover .gla-item-title,
@@ -1990,7 +1993,7 @@ h1::before {
   display: flex;
   align-items: center;
   margin-top: 1rem;
-  color: #f39005;
+  color: #1e2339;
   font-weight: 500;
 }
 
@@ -2039,10 +2042,6 @@ h1::before {
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
   text-transform: inherit;
-}
-
-.node800165 .gla-btn-read-more {
-  color: #f39005;
 }
 
 .gla-btn-read-more:focus,
@@ -2322,7 +2321,7 @@ h1::before {
 }
 
 /* FAQ */
-body.faq .layout-2-col {
+body.faq .wrapper {
   background: #fcfcfc;
 }
 
