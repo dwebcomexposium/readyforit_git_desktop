@@ -2181,7 +2181,7 @@ h2.gla-item-title {
 #zone2 .grid-la-list .la-highlight > .la-item:first-child h2 {
   display: inline;
   background-color: #ffffff;
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -2234,6 +2234,8 @@ h2.gla-item-title {
 }
 
 #zone2 .grid-la-list .la-column .la-item-content {
+  position: relative;
+  height: 250px;
   padding: 2rem;
 }
 
@@ -2250,6 +2252,12 @@ h2.gla-item-title {
 
 #zone2 .grid-la-list .la-column p {
   margin-top: 1.5rem;
+}
+
+#zone2 .grid-la-list .la-column .la-item-btn {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .node666356 .layout-2-col {
