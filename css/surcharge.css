@@ -340,7 +340,7 @@ a {
 .cc-cookies {
   top: inherit;
   bottom: 0;
-  padding: 1rem 5%;
+  padding: 1rem 10%;
   background: #1e2339;
   color: #ffffff;
 }
@@ -356,7 +356,7 @@ a {
 }
 
 .cc-cookie-accept {
-  right: 0;
+  right: -10%;
   padding: 0 0.6rem 0 0.8rem;
   border-left: 5px solid #f39005;
   background: transparent;
