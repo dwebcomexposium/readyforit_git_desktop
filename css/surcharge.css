@@ -737,6 +737,7 @@ a {
   padding-left: 0.8rem;
   border-left: 5px solid #00e2ff;
   font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .twitter-icon,
@@ -898,7 +899,7 @@ h1::before {
 }
 
 .front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 25px;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 10px;
 }
 
 /* Slider */
@@ -1008,7 +1009,7 @@ h1::before {
   left: 0;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   height: 100%;
   padding: 0 0 0 11rem;
 }
@@ -1098,6 +1099,7 @@ h1::before {
   padding-left: 0.8rem;
   border-left: 5px solid #ff3100;
   color: #1e2339;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -1111,7 +1113,7 @@ h1::before {
   display: inline-block;
   position: relative;
   width: 780px;
-  margin: 6rem 0 11rem 15%;
+  margin: 6rem 0 11rem 10%;
   padding: 1rem 6rem;
   background: #ff7600;
   color: #ffffff;
@@ -1302,6 +1304,7 @@ h1::before {
   border-left: 5px solid #00c485;
   color: #1e2339;
   font-size: 1.8rem;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -1394,7 +1397,7 @@ h1::before {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #ff3100;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
 }
@@ -1551,7 +1554,7 @@ h1::before {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
 }
