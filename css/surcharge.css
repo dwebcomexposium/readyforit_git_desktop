@@ -2320,10 +2320,6 @@ h2.gla-item-title {
   font-weight: 500;
 }
 
-#zone2 .pl-item-read-more {
-  display: none;
-}
-
 #zone2 .pl-item-read-more a .icon,
 #zone2 .pl-item-content p strong .lien1::before {
   content: '';
