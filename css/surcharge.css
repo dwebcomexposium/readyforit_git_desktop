@@ -2574,6 +2574,10 @@ body.faq .wrapper {
   text-align: left;
 }
 
+.error404.intro p {
+  color: #1e2339;
+}
+
 .error404 .inside.ep-form-wrap {
   display: none;
 }
