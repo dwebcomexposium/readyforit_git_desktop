@@ -456,6 +456,13 @@ a {
   background: url('img/readyforit/logo-stiky.png') no-repeat;
 }
 
+.title-logo {
+  display: block;
+  position: relative;
+  font-size: 2rem;
+  text-indent: -9999px;
+}
+
 .front .header-logo {
   position: inherit;
   width: 635px;
