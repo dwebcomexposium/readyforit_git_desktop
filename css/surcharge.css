@@ -467,7 +467,7 @@ a {
   position: inherit;
   width: 635px;
   height: 280px;
-  background: url('img/readyforit/logo.png') no-repeat;
+  background: url('img/readyforit/logo.png') no-repeat left top / 100%;
 }
 
 .header-date {
@@ -1440,7 +1440,7 @@ h1::before {
   right: 0;
   width: 100%;
   height: 240px;
-  background: #00e2ff url('img/readyforit/bg_5.jpg') no-repeat right top;
+  background: #00e2ff url('img/readyforit/bg_5.jpg') no-repeat right top / auto 100%;
 }
 
 .front #zone2 .highlight-container .slider {
@@ -2107,7 +2107,7 @@ h2.gla-item-title {
   left: 0;
   width: 100%;
   height: 240px;
-  background: #00c485 url('img/readyforit/bg_4.jpg') no-repeat left top;
+  background: #00c485 url('img/readyforit/bg_4.jpg') no-repeat left top / auto 100%;
 }
 
 .front #zone2 .actu-container::before {
