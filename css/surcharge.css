@@ -1728,7 +1728,6 @@ h1::before {
 }
 
 .cl-item-email {
-  color: #f39005;
   font-weight: 500;
 }
 
@@ -1765,7 +1764,6 @@ h1::before {
 p.cl-item-phone {
   position: relative;
   padding-left: 3.5rem;
-  color: #f39005;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -1836,6 +1834,103 @@ p.cl-item-social {
 
 .cl-item-social .icon::before {
   color: #ffffff;
+}
+
+/* infos popup */
+#noty_center_layout_container {
+  top: calc(50% - 253px) !important;
+  left: 22% !important;
+  width: 100% !important;
+  max-width: 1099px;
+  height: 507px !important;
+}
+
+#noty_center_layout_container li {
+  overflow: visible !important;
+}
+
+.noty_message {
+  height: auto !important;
+  padding: 0;
+}
+
+.noty_message .button_close {
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.22);
+  color: transparent;
+}
+
+.noty_message .button_close::before {
+  content: "\e61f";
+  color: #1e2339;
+  font-family: 'icon';
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.8;
+  text-transform: none;
+  speak: none;
+}
+
+.mycl-item .cl-item-photo {
+  position: inherit !important;
+  width: 430px;
+  height: 440px;
+  float: left;
+  background: pink;
+}
+
+.mycl-item .cl-item-photo img {
+  height: 100%;
+}
+
+.mycl-item .cl-item-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 440px;
+  padding: 4rem 3rem;
+  float: left;
+  text-align: left;
+}
+
+.mycl-item .cl-item-title {
+  margin-bottom: 1.8rem;
+  font-size: 2.8rem;
+}
+
+.mycl-item .cl-item-subtitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.mycl-item .cl-item-desc {
+  display: inline-block;
+  order: 3;
+  line-height: 1.2;
+}
+
+.mycl-item .cl-item-email {
+  order: 2;
+}
+
+.mycl-item .cl-item-phone {
+  order: 1;
+}
+
+.mycl-item .cl-item-social {
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+  margin-top: 0;
 }
 
 .social-sharing {
