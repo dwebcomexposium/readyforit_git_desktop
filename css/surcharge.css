@@ -750,15 +750,15 @@ a {
 }
 
 .twitter-icon {
-  background: url('img/readyforit/icon_twitter.png') no-repeat;
+  background: url('img/readyforit/icon_twitter.png') no-repeat center / 100%;
 }
 
 .linkedin-icon {
-  background: url('img/readyforit/icon_linkedin.png') no-repeat;
+  background: url('img/readyforit/icon_linkedin.png') no-repeat center / 100%;
 }
 
 .youtube-icon {
-  background: url('img/readyforit/icon_youtube.png') no-repeat;
+  background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
 }
 
 .site-footer .inside .footer-bottom-container {
@@ -1492,7 +1492,7 @@ h1::before {
   background: transparent;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: inherit;
 }
 
