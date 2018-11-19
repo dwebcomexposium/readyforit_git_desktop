@@ -1773,7 +1773,7 @@ p.cl-item-phone:nth-child(1n) {
 }
 
 p.cl-item-phone:nth-child(2n) {
-  margin-top: 0.2rem;
+  margin-top: 2rem;
 }
 
 .cl-item-phone .label {
@@ -1941,7 +1941,13 @@ p.cl-item-social {
 }
 
 .noty_message .mycl-item .cl-item-email {
+  position: relative;
   order: 2;
+}
+
+.noty_message .mycl-item .cl-item-email a {
+  top: 0;
+  width: 160px;
 }
 
 .noty_message .mycl-item .cl-item-phone {
