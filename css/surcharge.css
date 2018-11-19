@@ -1773,7 +1773,7 @@ p.cl-item-phone:nth-child(1n) {
 }
 
 p.cl-item-phone:nth-child(2n) {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .cl-item-phone .label {
@@ -1838,7 +1838,7 @@ p.cl-item-social {
 
 /* infos popup */
 #noty_center_layout_container.i-am-new {
-  top: calc(50% - 253px) !important;
+  top: calc(50% - 220px) !important;
   left: 22% !important;
   width: 100% !important;
   max-width: 1099px;
@@ -1952,6 +1952,10 @@ p.cl-item-social {
 
 .noty_message .mycl-item .cl-item-phone {
   order: 1;
+}
+
+.noty_message .mycl-item p.cl-item-phone:nth-child(2n) {
+  margin-top: 2rem;
 }
 
 .noty_message .mycl-item .cl-item-social {
