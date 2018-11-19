@@ -1837,7 +1837,7 @@ p.cl-item-social {
 }
 
 /* infos popup */
-#noty_center_layout_container {
+#noty_center_layout_container.i-am-new {
   top: calc(50% - 253px) !important;
   left: 22% !important;
   width: 100% !important;
@@ -1845,7 +1845,8 @@ p.cl-item-social {
   height: 507px !important;
 }
 
-#noty_center_layout_container li {
+#noty_center_layout_container.i-am-new li {
+  width: 100% !important;
   overflow: visible !important;
 }
 
