@@ -1842,7 +1842,7 @@ p.cl-item-social {
   left: 22% !important;
   width: 100% !important;
   max-width: 1099px;
-  height: 507px !important;
+  height: 440px !important;
 }
 
 #noty_center_layout_container.i-am-new li {
@@ -1898,7 +1898,7 @@ p.cl-item-social {
   display: flex;
   position: relative !important;
   flex-direction: column;
-  width: 60%;
+  width: 60.8%;
   height: 440px;
   padding: 4rem 3rem 0;
   float: left;
@@ -1957,6 +1957,8 @@ p.cl-item-social {
 
 .noty_buttons .prevButton,
 .noty_buttons .nextButton {
+  position: absolute;
+  top: calc(50% - 18px);
   width: 36px;
   height: 36px;
   margin: 0;
@@ -1966,9 +1968,16 @@ p.cl-item-social {
   text-align: right;
 }
 
+.noty_buttons .prevButton {
+  left: -5rem;
+}
+
+.noty_buttons .nextButton {
+  right: -5rem;
+}
+
 .noty_buttons .prevButton::before,
 .noty_buttons .nextButton::before {
-  content: "\e616";
   color: #ffffff;
   font-family: 'icon';
   -webkit-font-smoothing: antialiased;
@@ -1979,6 +1988,14 @@ p.cl-item-social {
   line-height: 1.8;
   text-transform: none;
   speak: none;
+}
+
+.noty_buttons .prevButton::before {
+  content: "\e604";
+}
+
+.noty_buttons .nextButton::before {
+  content: "\e616";
 }
 
 .social-sharing {
