@@ -1858,6 +1858,7 @@ p.cl-item-social {
 
 .noty_message .button_close {
   position: absolute;
+  z-index: 2;
   top: -1.5rem;
   right: -1.5rem;
   width: 36px;
@@ -1865,7 +1866,6 @@ p.cl-item-social {
   background: #ffffff;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.22);
   color: transparent;
-  z-index: 2;
 }
 
 .noty_message .button_close::before {
