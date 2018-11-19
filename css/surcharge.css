@@ -1880,19 +1880,18 @@ p.cl-item-social {
   speak: none;
 }
 
-.mycl-item .cl-item-photo {
+.noty_message .mycl-item .cl-item-photo {
   position: inherit !important;
   width: 430px;
   height: 440px;
   float: left;
-  background: pink;
 }
 
-.mycl-item .cl-item-photo img {
+.noty_message .mycl-item .cl-item-photo img {
   height: 100%;
 }
 
-.mycl-item .cl-item-content {
+.noty_message .mycl-item .cl-item-content {
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -1902,31 +1901,31 @@ p.cl-item-social {
   text-align: left;
 }
 
-.mycl-item .cl-item-title {
+.noty_message .mycl-item .cl-item-title {
   margin-bottom: 1.8rem;
   font-size: 2.8rem;
 }
 
-.mycl-item .cl-item-subtitle {
+.noty_message .mycl-item .cl-item-subtitle {
   font-size: 1.6rem;
   font-weight: 500;
 }
 
-.mycl-item .cl-item-desc {
+.noty_message .mycl-item .cl-item-desc {
   display: inline-block;
   order: 3;
   line-height: 1.2;
 }
 
-.mycl-item .cl-item-email {
+.noty_message .mycl-item .cl-item-email {
   order: 2;
 }
 
-.mycl-item .cl-item-phone {
+.noty_message .mycl-item .cl-item-phone {
   order: 1;
 }
 
-.mycl-item .cl-item-social {
+.noty_message .mycl-item .cl-item-social {
   position: absolute;
   top: 4rem;
   right: 3rem;
