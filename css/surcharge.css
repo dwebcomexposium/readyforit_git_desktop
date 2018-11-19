@@ -1767,6 +1767,7 @@ p.cl-item-phone {
   padding-left: 3.5rem;
   color: #f39005;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 p.cl-item-phone:nth-child(1n) {
