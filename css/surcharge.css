@@ -446,16 +446,6 @@ a {
   background: #025563 url('img/readyforit/bg_header.jpg') no-repeat right top;
 }
 
-.header-logo {
-  position: absolute;
-  z-index: 2;
-  top: -2.5rem;
-  left: 0;
-  width: 137px;
-  height: 170px;
-  background: url('img/readyforit/logo-stiky.png') no-repeat;
-}
-
 .title-logo {
   display: block;
   position: relative;
@@ -527,7 +517,7 @@ a {
   left: 0;
   width: 137px;
   height: 170px;
-  background: url('img/readyforit/logo-stiky.png') no-repeat;
+  background: url('img/readyforit/logo-stiky.png') no-repeat left top / 100%;
 }
 
 .is-stuck.site-banner .header-date {
