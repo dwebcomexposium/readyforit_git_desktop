@@ -1769,7 +1769,7 @@ p.cl-item-phone {
   font-weight: 500;
 }
 
-p.cl-item-phone:nth-child(2n) {
+p.cl-item-phone:nth-child(1n) {
   margin-top: 0;
 }
 
