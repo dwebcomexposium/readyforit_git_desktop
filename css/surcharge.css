@@ -1773,7 +1773,7 @@ p.cl-item-phone:nth-child(1n) {
 }
 
 p.cl-item-phone:nth-child(2n) {
-  margin-top: 0.5em;
+  margin-top: 0.2rem;
 }
 
 .cl-item-phone .label {
@@ -1935,6 +1935,7 @@ p.cl-item-social {
   display: inline-block;
   order: 3;
   margin-top: 2.5rem;
+  padding-bottom: 3rem;
   overflow-y: auto;
   line-height: 1.2;
 }
@@ -1952,6 +1953,32 @@ p.cl-item-social {
   top: 4rem;
   right: 3rem;
   margin-top: 0;
+}
+
+.noty_buttons .prevButton,
+.noty_buttons .nextButton {
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  border: 0;
+  background: #1e2339;
+  color: transparent;
+  text-align: right;
+}
+
+.noty_buttons .prevButton::before,
+.noty_buttons .nextButton::before {
+  content: "\e616";
+  color: #ffffff;
+  font-family: 'icon';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.8;
+  text-transform: none;
+  speak: none;
 }
 
 .social-sharing {
