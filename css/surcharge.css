@@ -908,7 +908,7 @@ h1::before {
 }
 
 .front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 10px;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 520px;
 }
 
 /* Slider */
@@ -1218,7 +1218,7 @@ h1::before {
   position: relative;
   width: 76%;
   max-width: 1220px;
-  margin: 0 auto 4rem;
+  margin: 3rem auto 7rem;
   padding: 7rem 4rem;
   background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
