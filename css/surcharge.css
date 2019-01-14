@@ -2580,7 +2580,11 @@ body.faq .wrapper {
   background: #ffffff;
 }
 
-.faq-content .fc-item-link {
+.faq-content a {
+  color: #ffffff;
+}
+
+.faq-content a.fc-item-link {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 2.8rem;
@@ -2590,9 +2594,9 @@ body.faq .wrapper {
   font-weight: 500;
 }
 
-.faq-content .fc-item-link:hover,
-.faq-content .fc-item-link:focus,
-.faq-content .fc-item-link:active {
+.faq-content a.fc-item-link:hover,
+.faq-content a.fc-item-link:focus,
+.faq-content a.fc-item-link:active {
   color: #ff3100;
   text-decoration: none;
 }
