@@ -1433,7 +1433,8 @@ h1::before {
   margin-top: 0;
 }
 
-.front #zone2 .highlight-container::before {
+.front #zone2 .highlight-container::before,
+.node683555 #zone2::before {
   content: '';
   display: inline-block;
   position: absolute;
