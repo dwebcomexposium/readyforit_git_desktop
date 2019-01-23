@@ -1445,6 +1445,10 @@ h1::before {
   background: #00e2ff url('img/readyforit/bg_5.jpg') no-repeat right top / auto 100%;
 }
 
+.node683555 #zone2::before {
+  top: 817px;
+}
+
 .front #zone2 .highlight-container .slider {
   width: 82%;
   max-width: 1220px;
