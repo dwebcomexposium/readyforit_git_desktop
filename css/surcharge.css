@@ -2672,6 +2672,7 @@ body.faq .wrapper {
 
 .node646244 .grid-la-list {
   display: flex;
+  justify-content: center;
 }
 
 .node646244 .gla-item-content {
@@ -2681,7 +2682,7 @@ body.faq .wrapper {
   bottom: 0;
   left: 0;
   width: auto;
-  height: auto;
+  height: 100%;
   padding: 17rem 0 6rem;
   box-shadow: none;
   text-align: center;
