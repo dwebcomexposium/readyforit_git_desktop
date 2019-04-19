@@ -52,6 +52,6 @@ $(document).ready(function(){
   if (cookieName === '') {
     setCookie('header_cookie', 'header_cookie', 365);
   } else {
-    $('.site-banner').addClass('is-stuck');
+    $('.site-banner').addClass('is-slim');
   }
 });
