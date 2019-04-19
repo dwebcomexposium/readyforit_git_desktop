@@ -508,6 +508,7 @@ a {
 }
 
 .main-navigation,
+.front .is-slim .main-navigation,
 .front .is-stuck .main-navigation {
   padding-top: 0;
   box-shadow: none;

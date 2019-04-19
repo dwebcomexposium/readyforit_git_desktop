@@ -48,10 +48,10 @@ $(document).ready(function(){
   }
 
   /** Cookie for header **/
-  /*var cookieName = getCookie("header_cookie");
+  var cookieName = getCookie("header_cookie");
   if (cookieName === '') {
     setCookie('header_cookie', 'header_cookie', 365);
   } else {
     $('.site-banner').addClass('is-slim');
   }
-});*/
+});
