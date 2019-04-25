@@ -2860,3 +2860,9 @@ body.faq .wrapper {
 .parent659648 .article-navigation {
   display: none;
 }
+
+/* Chatbot - Botspell */
+.node1216306 .global-wrapper,
+.node1216306 footer {
+  display: none;
+}
