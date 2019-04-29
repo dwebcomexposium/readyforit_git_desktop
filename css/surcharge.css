@@ -557,7 +557,7 @@ a {
 }
 
 .front .is-slim .mn-item-lvl-1:first-child,
-.front .is-slim .lang-switcher
+.front .is-slim .lang-switcher,
 .is-stuck .mn-item-lvl-1:first-child,
 .is-stuck .lang-switcher {
   display: block;
