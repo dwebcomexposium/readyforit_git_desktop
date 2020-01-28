@@ -716,17 +716,17 @@ a {
 
 .logo-dg-consultants {
   display: inline-block;
-  width: 93px;
-  height: 76px;
+  width: 170px;
+  height: 30px;
   margin-right: 2.5rem;
-  background: url('img/readyforit/logo_dg.png') no-repeat;
+  background: url('img/readyforit/logo_dg.png') no-repeat 0 0 / 170px;
 }
 
 .logo-comexposium {
   display: inline-block;
-  width: 215px;
-  height: 76px;
-  background: url('img/readyforit/logo_comexposium.png') no-repeat center;
+  width: 170px;
+  height: 30px;
+  background: url('img/readyforit/logo_comexposium.png') no-repeat 0 0 / 170px;
 }
 
 .footer-logos p {
