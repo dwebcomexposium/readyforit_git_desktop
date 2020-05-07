@@ -1727,6 +1727,10 @@ h1::before {
   padding: 0;
 }
 
+.cl-item-photo img {
+  width: 100%;
+}
+
 .cl-item-content {
   position: absolute;
   bottom: 0;
