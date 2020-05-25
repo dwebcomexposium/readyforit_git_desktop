@@ -932,7 +932,7 @@ h1::before {
 }
 
 .front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 520px;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 8rem;
 }
 
 /* Slider */
@@ -1361,7 +1361,7 @@ h1::before {
   position: relative;
   width: 86%;
   max-width: 1220px;
-  margin: 3rem auto 9rem;
+  margin: 3rem auto 0;
   padding: 3.7rem 5rem;
   background: url('img/readyforit/bg_2.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
@@ -1554,6 +1554,23 @@ h1::before {
   display: none;
 }
 
+.partner-container {
+  position: relative;
+  width: 86%;
+  max-width: 1220px;
+  margin: 3rem auto 0;
+  padding: 3.7rem 5rem;
+  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
+  color: #ffffff;
+}
+
+.partner-container h2 {
+  margin-top: 3.8rem;
+  color: #ffffff;
+  font-size: 5.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
 
 /* Partenaires */
 .front #zone4 {
