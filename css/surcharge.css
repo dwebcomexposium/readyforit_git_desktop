@@ -371,7 +371,7 @@ a {
 
 /* Table */
 .article-content table tbody tr {
-  background: transparent;
+  background: transparent !important;
 }
 
 .article-content table td {
@@ -379,13 +379,13 @@ a {
   border: 0;
 }
 
+.article-content table figure {
+  margin-bottom: 0;
+}
+
 .article-content .table1 {
   margin: 4rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
-}
-
-.article-content .table1 figure {
-  margin-bottom: 0;
 }
 
 .article-content .table1 td {
@@ -394,6 +394,26 @@ a {
 
 .article-content .table1 td.col1 {
   padding: 0;
+}
+
+.article-content .table2 {
+  position: relative;
+  margin: 4rem 0;
+}
+
+.article-content .table2 tr {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.article-content .table2 td.col1 {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  margin: 0;
+  padding: 2rem;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+  background: #ffffff;
 }
 
 
