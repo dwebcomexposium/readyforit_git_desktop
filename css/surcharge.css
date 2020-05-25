@@ -388,12 +388,8 @@ a {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
 }
 
-.article-content .table1 td {
-  padding: 3rem;
-}
-
 .article-content .table1 td.col1 {
-  padding: 0;
+  padding: 3rem;
 }
 
 .article-content .table2 {
