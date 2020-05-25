@@ -369,6 +369,34 @@ a {
   font-size: 1.4rem;
 }
 
+/* Table */
+.article-content table tbody tr {
+  background: transparent;
+}
+
+.article-content table td {
+  padding: 0;
+  border: 0;
+}
+
+.table1 {
+  margin: 4rem 0;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+}
+
+.table1 figure {
+  margin-bottom: 0;
+}
+
+.table1 td {
+  padding: 3rem;
+}
+
+.table1 td.col1 {
+  padding: 0;
+}
+
+
 
 /***********************************/
 /* HEADER */
