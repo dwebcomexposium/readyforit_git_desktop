@@ -379,20 +379,20 @@ a {
   border: 0;
 }
 
-.table1 {
+.article-content .table1 {
   margin: 4rem 0;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
 }
 
-.table1 figure {
+.article-content .table1 figure {
   margin-bottom: 0;
 }
 
-.table1 td {
+.article-content .table1 td {
   padding: 3rem;
 }
 
-.table1 td.col1 {
+.article-content .table1 td.col1 {
   padding: 0;
 }
 
