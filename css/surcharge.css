@@ -1382,8 +1382,8 @@ h1::before {
 }
 
 /* A propos */
-.node1375187 .site-wrapper {
-  background: transparent url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+.node1375187 .layout-2-col {
+  background: transparent url('img/readyforit/bg_mozaique_right.png') no-repeat right 35rem;
 }
 
 /* Actualités */
