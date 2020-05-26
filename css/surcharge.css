@@ -69,7 +69,7 @@ body {
 
 
 /* Title */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6, h7 {
   color: #1e2339;
   line-height: 1.2;
 }
@@ -123,6 +123,20 @@ h5 {
   margin-bottom: 0;
   font-size: 1.8rem;
   font-weight: 500;
+  line-height: 1.2;
+}
+
+h6 {
+  margin-bottom: 0;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h7 {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
 }
 
 /* Paragraphe */
