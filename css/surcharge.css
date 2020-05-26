@@ -427,7 +427,7 @@ a {
   left: 0;
   margin: 0;
   padding: 2rem;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
   background: #ffffff;
 }
 
@@ -1379,6 +1379,11 @@ h1::before {
 
 .videos .slick-dots {
   bottom: -50px;
+}
+
+/* A propos */
+.node1375187 .site-wrapper {
+  background: transparent url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
 }
 
 /* Actualités */
