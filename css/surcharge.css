@@ -446,6 +446,14 @@ a {
   background: #ffffff;
 }
 
+.article-content .table4 {
+  position: relative;
+  margin: 4rem 0;
+  padding: 7rem 4rem;
+  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
+  color: #ffffff;
+}
+
 /***********************************/
 /* HEADER */
 /***********************************/
