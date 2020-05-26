@@ -69,7 +69,7 @@ body {
 
 
 /* Title */
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6 {
   color: #1e2339;
   line-height: 1.2;
 }
@@ -130,11 +130,6 @@ h6 {
   font-weight: 500;
 }
 
-h7 {
-  margin-top: 0.5em;
-  font-size: 1.4rem;
-}
-
 /* Paragraphe */
 p {
   font-size: 1.6rem;
@@ -157,6 +152,12 @@ p.style2 {
 p.style3 {
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+p.style4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f39005;
 }
 
 /* Liens */
