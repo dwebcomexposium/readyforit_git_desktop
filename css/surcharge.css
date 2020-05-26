@@ -116,27 +116,23 @@ h4 {
   margin-bottom: 0;
   font-size: 3.5rem;
   font-weight: 500;
-  line-height: 1.2;
 }
 
 h5 {
   margin-bottom: 0;
   font-size: 2.8rem;
   font-weight: 500;
-  line-height: 1.2;
 }
 
 h6 {
   margin-bottom: 0;
   font-size: 2.4rem;
   font-weight: 500;
-  line-height: 1.2;
 }
 
 h7 {
-  margin-bottom: 0;
+  margin-top: 0.5em;
   font-size: 1.4rem;
-  line-height: 1.2;
 }
 
 /* Paragraphe */
@@ -399,11 +395,15 @@ a {
 
 .article-content .table1 {
   margin: 4rem 0 10rem;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 .article-content .table1 td.col1 {
   padding: 3rem;
+}
+
+.article-content .table1 h5 {
+  margin-top: 0;
 }
 
 .article-content .table2 {
