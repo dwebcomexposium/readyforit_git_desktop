@@ -468,6 +468,7 @@ a {
 
 .article-content .table4 td.col2 {
   padding: 4rem;
+  vertical-align: middle !important;
 }
 
 /***********************************/
