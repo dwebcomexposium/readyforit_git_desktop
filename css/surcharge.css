@@ -67,6 +67,10 @@ body {
   background: transparent;
 }
 
+p, .p-like, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption, details, figure {
+  margin-top: 2rem;
+  line-height: 1.3;
+}
 
 /* Title */
 h1, h2, h3, h4, h5, h6 {
@@ -420,7 +424,7 @@ a {
 .article-content .table2 td.col1 {
   position: absolute;
   top: 5rem;
-  left: 5rem;
+  left: 0;
   margin: 0;
   padding: 2rem;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
