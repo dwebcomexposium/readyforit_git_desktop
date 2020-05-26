@@ -461,9 +461,9 @@ a {
 
 .article-content .table4 td.col1 {
   position: absolute;
-  top: 5rem;
-  right: 0;
-  margin: 0;
+  top: 50%;
+  right: -7rem;
+  margin-top: -157px;
 }
 
 .article-content .table4 td.col2 {
