@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence */
 @font-face {
-  font-family: 'Barlow';
+  font-family: 'Barlow-Regular';
   font-style: normal;
   font-weight: normal;
   src: url('fonts/barlow/Barlow-Regular.eot');
@@ -9,14 +9,21 @@
 }
 
 @font-face {
-  font-family: 'Barlow';
+  font-family: 'Barlow-Medium';
   font-style: normal;
   font-weight: 500;
   src: url('fonts/barlow/Barlow-Medium.eot'); src: url('fonts/barlow/Barlow-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/barlow/Barlow-Medium.woff2') format('woff2'), url('fonts/barlow/Barlow-Medium.woff') format('woff'), url('fonts/barlow/Barlow-Medium.ttf')  format('truetype'), url('fonts/barlow/Barlow-Medium.svg#Barlow') format('svg');
 }
 
 @font-face {
-  font-family: 'Barlow';
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/barlow/Barlow-SemiBold.eot') format('truetype');
+}
+
+@font-face {
+  font-family: 'Barlow-Bold';
   font-style: normal;
   font-weight: 700;
   src: url('fonts/barlow/Barlow-Bold.eot');
@@ -30,7 +37,7 @@ html,
 html *,
 [class^="btn"],
 .btn {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow-Regular', sans-serif;
 }
 
 body {
@@ -82,14 +89,14 @@ h1 {
   margin-bottom: 0;
   border: 0;
   font-size: 5.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 h2 {
   margin: 0;
   border: 0;
   font-size: 5.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 h2:not(:first-child) {
@@ -98,7 +105,7 @@ h2:not(:first-child) {
 
 .front h2 {
   font-size: 6.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
 }
 
 .contacts-list h2 {
@@ -108,7 +115,7 @@ h2:not(:first-child) {
 h3 {
   margin-bottom: 0;
   font-size: 3.2rem;
-  font-weight: normal;
+  font-family: 'Barlow-SemiBold';
 }
 
 .cl-content + h2,
@@ -119,19 +126,19 @@ h3 {
 h4 {
   margin-bottom: 0;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 h5 {
   margin-bottom: 0;
   font-size: 2.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 h6 {
   margin-bottom: 0;
   font-size: 2.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 /* Paragraphe */
@@ -140,27 +147,27 @@ p {
 }
 
 p strong {
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 p.style1 {
   font-size: 2.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 p.style2 {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 p.style3 {
   font-size: 1.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 p.style4 {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   color: #f39005;
 }
 
@@ -212,7 +219,7 @@ a {
   margin-bottom: 2rem;
   padding: 1rem 2rem;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-align: center;
   text-decoration: none;
 }
@@ -307,7 +314,7 @@ a {
 }
 
 .bn-item:last-child {
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .bn-item-link,
@@ -579,7 +586,7 @@ a {
   margin-right: 0;
   padding: 1.5rem 0;
   color: #1e2339;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-align: center;
 }
 
@@ -671,7 +678,7 @@ a {
 }
 
 .mn-link {
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .front .mn-item-lvl-1 > .mn-link {
@@ -745,7 +752,7 @@ a {
   background: #ffffff;
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-transform: uppercase;
 }
 
@@ -871,7 +878,7 @@ a {
   padding-left: 0.8rem;
   border-left: 5px solid #00e2ff;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .twitter-icon,
@@ -924,7 +931,6 @@ a {
   border: 0;
   background: transparent;
   color: #b2b6ca;
-  font-family: 'Barlow', sans-serif;
   font-size: 1.21rem;
 }
 
@@ -972,7 +978,7 @@ h1,
   border: 0;
   color: #ffffff;
   font-size: 5.4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   text-align: center;
   text-transform: uppercase;
 }
@@ -1003,7 +1009,7 @@ h1::before {
   margin-top: 0 !important;
   color: #ffffff;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .main-title-with-link {
@@ -1150,14 +1156,14 @@ h1::before {
 
 #zone1 .la-slider .la-item-title {
   font-size: 5.6rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
 #zone1 .la-slider .la-item-content p {
   margin-top: 2.5rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 #zone1 .la-slider .la-item-content .btn-primary {
@@ -1168,7 +1174,7 @@ h1::before {
   background: transparent;
   color: #ffffff;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-transform: inherit;
 }
 
@@ -1222,7 +1228,7 @@ h1::before {
 .front #zone2 .edito h4 {
   margin: 0;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -1234,7 +1240,7 @@ h1::before {
   padding-left: 0.8rem;
   border-left: 5px solid #ff3100;
   color: #1e2339;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-decoration: none;
 }
 
@@ -1276,7 +1282,7 @@ h1::before {
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.22);
   color: #1e2339;
   font-size: 4rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 0.8;
 }
 
@@ -1299,7 +1305,7 @@ h1::before {
 .article-content ul.style1 > li strong,
 .content-list-bullet ul.style1 > li strong {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .article-content blockquote {
@@ -1334,7 +1340,7 @@ h1::before {
 .article-content blockquote i.icon::before {
   content: "+";
   font-family: 'Barlow', sans-serif;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 0.8;
 }
 
@@ -1353,7 +1359,7 @@ h1::before {
 .videos-container h2 {
   color: #ffffff;
   font-size: 5.25rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .videos-text {
@@ -1371,7 +1377,7 @@ h1::before {
   border-left: 5px solid #6dd700;
   color: #ffffff;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   text-decoration: none;
 }
 
@@ -1429,7 +1435,7 @@ h1::before {
 
 .node1375187 .article-intro h3 {
   color: #ffffff;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .node1375187 .article-intro p.style1 {
@@ -1455,7 +1461,7 @@ h1::before {
   border-left: 5px solid #00c485;
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-decoration: none;
 }
 
@@ -1489,7 +1495,7 @@ h1::before {
   margin-top: 3.8rem;
   color: #ffffff;
   font-size: 5.25rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -1511,7 +1517,7 @@ h1::before {
   background: #1e2339;
   color: #ffffff;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.3;
   text-align: center;
   text-decoration: none;
@@ -1528,7 +1534,7 @@ h1::before {
   background: #ffffff;
   color: #1e2339;
   font-size: 3.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 0.8;
   text-align: center;
 }
@@ -1548,7 +1554,7 @@ h1::before {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #ff3100;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-align: center;
   text-decoration: none;
 }
@@ -1633,7 +1639,7 @@ h1::before {
 .front #zone2 .highlight-container .la-item-title,
 .front #zone2 .highlight-container .la-item-title a {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -1648,7 +1654,7 @@ h1::before {
   background: transparent;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-transform: inherit;
 }
 
@@ -1685,7 +1691,7 @@ h1::before {
   margin-top: 3.8rem;
   color: #ffffff;
   font-size: 5.25rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -1704,14 +1710,14 @@ h1::before {
   background: url('img/readyforit/bg_3.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
   font-size: 2.6rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   text-align: center;
 }
 
 .front #zone4 .edito h2 {
   color: #ffffff;
   font-size: 5.25rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -1727,7 +1733,7 @@ h1::before {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-align: center;
   text-decoration: none;
 }
@@ -1884,7 +1890,7 @@ h1::before {
 .cl-item-title {
   margin-bottom: 0.5rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .cl-item-subtitle {
@@ -1901,7 +1907,7 @@ h1::before {
 
 .cl-item-email {
   position: relative;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .cl-item-email .label {
@@ -1938,7 +1944,7 @@ h1::before {
 p.cl-item-phone {
   position: relative;
   padding-left: 3.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
 }
 
@@ -2099,7 +2105,7 @@ p.cl-item-social {
 
 .noty_message .mycl-item .cl-item-subtitle {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .noty_message .mycl-item .cl-item-desc {
@@ -2270,7 +2276,7 @@ p.cl-item-social {
 .info-content .phone-item,
 .info-content .web-item a {
   color: #f39005;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .icon-phone {
@@ -2358,14 +2364,14 @@ p.cl-item-social {
 
 h2.gla-item-title {
   margin-top: 0;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .node800165 .gla-item-title {
   margin: 0;
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .gla-item > a:hover .gla-item-title,
@@ -2394,7 +2400,7 @@ h2.gla-item-title {
   align-items: center;
   margin-top: 1rem;
   color: #1e2339;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .node800165 .gla-item-desc strong::before {
@@ -2440,7 +2446,7 @@ h2.gla-item-title {
   background: transparent;
   color: #1e2339;
   font-family: 'Barlow', sans-serif;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   text-transform: inherit;
 }
 
@@ -2494,7 +2500,7 @@ h2.gla-item-title {
   padding-left: 0.8rem;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-decoration: none;
 }
 
@@ -2546,7 +2552,7 @@ h2.gla-item-title {
 }
 
 #zone2 .grid-la-list .la-item-title {
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 #zone2 .grid-la-list .la-item-title a,
@@ -2561,7 +2567,7 @@ h2.gla-item-title {
   display: inline;
   background-color: #ffffff;
   font-size: 3rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.4;
 }
 
@@ -2679,7 +2685,7 @@ h2.gla-item-title {
 #zone2 .pl-item-title {
   margin-bottom: 1rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 #zone2 .pl-item-content .ezxmltext-field p {
@@ -2691,7 +2697,7 @@ h2.gla-item-title {
 #zone2 .pl-item-read-more a:focus,
 #zone2 .pl-item-read-more a:hover {
   color: #1e2339;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 #zone2 .pl-item-read-more a .icon,
@@ -2728,7 +2734,7 @@ h2.gla-item-title {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.5);
   color: #ffffff;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: 'Barlow-Bold';
   text-align: center;
   text-decoration: none;
 }
@@ -2770,7 +2776,7 @@ body.faq .wrapper {
   box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.25);
   color: #1e2339;
   font-size: 2.2rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
 }
 
 .faq-content a.fc-item-link:hover,
@@ -2866,7 +2872,7 @@ body.faq .wrapper {
 .node646244 .gla-item .gla-item-content .gla-item-title {
   color: #ffffff;
   font-size: 2rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   text-transform: uppercase;
 }
 
@@ -2941,7 +2947,7 @@ body.faq .wrapper {
   padding: 0;
   color: #1e2339;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-family: 'Barlow-Medium';
   line-height: 1.2;
   text-align: left;
   text-transform: inherit;
