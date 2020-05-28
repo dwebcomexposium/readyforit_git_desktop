@@ -19,7 +19,7 @@
   font-family: 'Barlow-SemiBold';
   font-style: normal;
   font-weight: 600;
-  src: url('fonts/barlow/Barlow-SemiBold.eot') format('truetype');
+  src: url('fonts/barlow/Barlow-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
