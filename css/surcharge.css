@@ -392,6 +392,10 @@ a {
 }
 
 /* Table */
+.article-content table {
+  font-size: 1.6rem;
+}
+
 .article-content table tbody tr {
   background: transparent !important;
 }
@@ -412,6 +416,7 @@ a {
 
 .article-content .table1 td.col1 {
   padding: 3rem;
+  background: #ffffff;
 }
 
 .article-content .table1 h5 {
