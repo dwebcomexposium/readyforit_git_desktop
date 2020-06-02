@@ -228,7 +228,7 @@ a {
 .style2 a,
 .style3 a,
 .style4 a {
-  width: 27.9rem;
+  min-width: 27.9rem;
   margin: 3rem 0;
   font-size: 1.8rem;
 }
@@ -1193,7 +1193,7 @@ h1::before {
   align-items: center;
   justify-content: space-between;
   max-width: 1220px;
-  margin: 0 auto;
+  margin: 9rem auto 0;
 }
 
 .title-temps-forts,
@@ -1490,7 +1490,7 @@ h1::before {
   position: relative;
   width: 86%;
   max-width: 1220px;
-  margin: 3rem auto 0;
+  margin: 9rem auto 0;
   padding: 3.7rem 5rem;
   background: url('img/readyforit/bg_2.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
@@ -1687,7 +1687,7 @@ h1::before {
   position: relative;
   width: 86%;
   max-width: 1220px;
-  margin: 3rem auto 0;
+  margin: 9rem auto 0;
   padding: 3.7rem 5rem 3.7rem;
   background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
@@ -2603,7 +2603,6 @@ h2.gla-item-title {
   flex-wrap: wrap;
   align-items: flex-start;
   width: 100%;
-  margin: 0 0 6rem;
   padding: 0;
 }
 
@@ -2929,6 +2928,11 @@ body.faq .wrapper {
 .node646244 .gla-item .gla-item-content:hover::after {
   bottom: -16px;
   color: #2b2f2f;
+}
+
+/* Conférence d'ouverture */
+.node1331572 .layout-2-col {
+  background-color: #fcfcfc;
 }
 
 /* Page 404 */
