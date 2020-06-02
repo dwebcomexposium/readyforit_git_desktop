@@ -1688,9 +1688,10 @@ h1::before {
   width: 86%;
   max-width: 1220px;
   margin: 3rem auto 0;
-  padding: 3.7rem 5rem;
+  padding: 3.7rem 5rem 3.7rem;
   background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
+  text-align: center;
 }
 
 .partner-container h2 {
@@ -1699,6 +1700,11 @@ h1::before {
   font-size: 5.25rem;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.partner-container p {
+  margin-bottom: 4rem;
+  font-size: 2rem;
 }
 
 /* Partenaires */
