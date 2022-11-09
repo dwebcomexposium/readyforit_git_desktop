@@ -3026,7 +3026,7 @@ body.faq .wrapper {
 .node1378739 .layout-2-col {
     background: none;
 }
-.front .is-slim.site-banner .header-logo, .is-stuck.site-banner .header-logo {
+.front .is-slim.site-banner .header-logo, .is-stuck.site-banner .header-logo, .header-logo {
     position: absolute;
     top: -1.5rem;
     left: 1.5rem;
