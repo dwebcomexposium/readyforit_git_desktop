@@ -3034,3 +3034,10 @@ body.faq .wrapper {
     height: 170px;
     background: url(img/readyforit/DG_RFIT_logo.png) no-repeat left top / 65%;
 }
+.front #zone2 .edito .inside {
+    width: 100%;
+    margin: 0;
+}
+.front #zone2 {
+    background: none;
+}
