@@ -3050,10 +3050,16 @@ body.faq .wrapper {
     background: url(img/homepage-podcast.png) no-repeat 0 0 / cover;
     color: #ffffff;
     text-align: center;
+      background-color: black;
+
 }
 .partner-container {
     background: url(img/homepage-partenaires.png) no-repeat 0 0 / cover;
+      background-color: black;
+
 }
 .program-container {
     background: url(img/homepage-programme.png) no-repeat 0 0 / cover;
+      background-color: black;
+
 }
