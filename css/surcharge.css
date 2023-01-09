@@ -3053,6 +3053,9 @@ body.faq .wrapper {
       background-color: black;
 
 }
+.podcast-container h2{
+    color: white;
+}
 .partner-container {
     background: url(img/homepage-partenaires.jpg) no-repeat 0 0 / cover;
       background-color: black;
