@@ -3047,7 +3047,7 @@ body.faq .wrapper {
     max-width: 1220px;
     margin: 9rem auto 0;
     padding: 3.7rem 5rem 3.7rem;
-    background: url(img/homepage-podcast.png) no-repeat 0 0 / cover;
+    background: url(img/homepage-podcast.jpg) no-repeat 0 0 / cover;
     color: #ffffff;
     text-align: center;
       background-color: black;
@@ -3057,12 +3057,12 @@ body.faq .wrapper {
     color: white;
 }
 .partner-container {
-    background: url(img/homepage-partenaires2.jpg) no-repeat 0 0 / cover;
+    background: url(img/homepage-partenaires2.png) no-repeat 0 0 / cover;
       background-color: black;
 
 }
 .program-container {
-    background: url(img/homepage-programme.jpg) no-repeat 0 0 / cover;
+    background: url(img/homepage-programme.png) no-repeat 0 0 / cover;
       background-color: black;
 
 }
