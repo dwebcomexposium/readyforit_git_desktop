@@ -40,8 +40,8 @@
   background: url('img/readyforit/bg_partner.jpg') no-repeat 0 0 / cover;
 }
 
-/* Participation */
-.parent601412 #zone1::before {
+/* Participation et startups*/
+.parent601412 #zone1::before, parent1474524 #zone1::before {
   background: url('img/readyforit/bg_participation.jpg') no-repeat 0 0 / cover;
 }
 
